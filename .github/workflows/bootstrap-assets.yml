@@ -1,0 +1,34 @@
+name: Bootstrap full site
+
+# One-time job: downloads the full OpenSI-Labs site package and commits it.
+# Only runs when this workflow file itself is added/changed.
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/bootstrap-assets.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  bootstrap:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download and extract full site
+        run: |
+          curl -sSL -o /tmp/opensi_full.zip "https://muse.ai/files/1315975908269686/2037970793529987/ymzar2k8qrysa0cf8cmcj7zx/opensi_full.zip"
+          unzip -o -q /tmp/opensi_full.zip -d .
+          git config user.name "opensilabs"
+          git config user.email "opensilabs@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+          else
+            git commit -m "OpenSI-Labs site: MrGreen-JekyllTheme configured for en/zh/fr/ja"
+            git push
+          fi
+          git push origin --delete test-branch || true
