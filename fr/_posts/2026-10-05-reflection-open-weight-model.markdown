@@ -4,7 +4,7 @@ title: "Le pari open-weight de Reflection : Nvidia mise 800 millions sur une ré
 author: OpenSI-Labs
 category: models
 tags: [poids ouverts, Reflection AI, Nvidia, DeepSeek, politique IA]
-date: 2026-10-05 08:00:00 -0700
+date: 2026-10-05 06:00:00 -0700
 meta_description: "Reflection AI, soutenue par Nvidia, s'apprête à publier son premier modèle à poids ouverts — un défi direct à DeepSeek et Qwen qui pourrait redessiner la carte de l'IA ouverte."
 ---
 

@@ -4,7 +4,7 @@ title: "Reflectionの賭け：Nvidiaが8億ドルを投じた「米国版DeepSee
 author: OpenSI-Labs
 category: models
 tags: [オープンウェイト, Reflection AI, Nvidia, DeepSeek, AI政策]
-date: 2026-10-05 08:00:00 -0700
+date: 2026-10-05 06:00:00 -0700
 meta_description: "Nvidia支援のReflection AIが初のオープンウェイトモデルを間もなく公開——DeepSeekとQwenへの挑戦状であり、オープンAIの勢力図を塗り替える可能性がある。"
 ---
 
