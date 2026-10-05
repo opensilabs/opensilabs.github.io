@@ -60,7 +60,10 @@
           {%- endif -%}
         </div>
       {% endif -%}
-      <p class="footer-powered"><span>Pwrd by </span><a href="https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme" target="_blank" rel="noopener noreferrer">Mr. Green</a></p>
+      <p class="footer-powered"><span>Pwrd by </span><a href="https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme" target="_blank" rel="noopener noreferrer">Mr. Green</a><span aria-hidden="true"> · </span><span id="opensi-visitors" style="display:none;"><i class="fa fa-eye" aria-hidden="true"></i>&nbsp;<span id="opensi-visitors-count">…</span>&nbsp;{{ site.data.lang[lng].footer.visitors }}</span></p>
+      <script>
+      (function(){var w=document.getElementById('opensi-visitors'),n=document.getElementById('opensi-visitors-count');if(!w||!n)return;var c=false;try{c=sessionStorage.getItem('opensi_v')==='1';}catch(e){}fetch('https://abacus.jasoncameron.dev/'+(c?'info':'hit')+'/opensi-labs/site').then(function(r){return r.json();}).then(function(d){if(d&&typeof d.value==='number'&&d.value>=0){n.textContent=d.value.toLocaleString();w.style.display='';if(!c){try{sessionStorage.setItem('opensi_v','1');}catch(e){}}}}).catch(function(){});})();
+      </script>
     </footer>
   </div>
 </div>

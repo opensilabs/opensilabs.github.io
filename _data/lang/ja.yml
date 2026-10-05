@@ -134,6 +134,10 @@ post-list:
       # you can use these wildcards, {property} {value} {thumb}
       resultFoundTitleFormat: "{property} : {thumb}"
 
+# for footer
+footer:
+  visitors: 訪問数
+
 # for home layout
 home:
   title: ようこそ
