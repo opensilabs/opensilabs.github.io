@@ -70,9 +70,9 @@ comments:
   # For other settings, please check the _data/conf/posts.yml file.
   giscus:
     repo: "opensilabs/opensilabs.github.io"
-    repo-id: "FILL_IN_AFTER_GISCUS_SETUP"
+    repo-id: "R_kgDOU8agVA"
     category: "Announcements"
-    category-id: "FILL_IN_AFTER_GISCUS_SETUP"
+    category-id: "DIC_kwDOU8agVM4DHFeO"
 
 # if no id is provided, this feature will be disabled.
 # make sure your environment does not match with google.analytics.ignore in _data/conf/main.yml
