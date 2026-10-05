@@ -10,7 +10,6 @@ on:
 
 permissions:
   contents: write
-  workflows: write
 
 jobs:
   bootstrap:
@@ -19,17 +18,34 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Download and extract full site
+      - name: Download site package
         run: |
-          curl -sSL -o /tmp/opensi_full.zip "https://muse.ai/files/1315975908269686/2037970793529987/ymzar2k8qrysa0cf8cmcj7zx/opensi_full.zip"
+          set -x
+          HTTP_CODE=$(curl -sSL --retry 3 --retry-all-errors --max-time 120 -w "%{http_code}" -o /tmp/opensi_full.zip "https://muse.ai/files/1315975908269686/2037970793529987/ymzar2k8qrysa0cf8cmcj7zx/opensi_full.zip")
+          echo "HTTP_CODE=${HTTP_CODE}"
+          ls -la /tmp/opensi_full.zip
+          test "${HTTP_CODE}" = "200"
+
+      - name: Extract site package
+        run: |
+          set -x
           unzip -o -q /tmp/opensi_full.zip -d .
+          # Never add/modify workflow files from this job: pushing files under
+          # .github/workflows/ requires the `workflow` scope which GITHUB_TOKEN
+          # does not grant. The bootstrap workflow itself was committed manually.
+          rm -rf .github/workflows
+          git checkout -- .github/workflows 2>/dev/null || true
+          echo "extracted:"
+          ls | head -20
+          test -f _config.yml && echo "_config.yml present"
+
+      - name: Commit and push
+        run: |
+          set -x
           git config user.name "opensilabs"
           git config user.email "opensilabs@users.noreply.github.com"
           git add -A
-          if git diff --cached --quiet; then
-            echo "nothing to commit"
-          else
-            git commit -m "OpenSI-Labs site: MrGreen-JekyllTheme configured for en/zh/fr/ja"
-            git push
-          fi
+          git status --short | head -10
+          git commit -m "OpenSI-Labs site: MrGreen-JekyllTheme configured for en/zh/fr/ja" || echo "nothing to commit"
+          git push
           git push origin --delete test-branch || true
