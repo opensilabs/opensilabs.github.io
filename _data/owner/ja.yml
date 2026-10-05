@@ -71,7 +71,7 @@ comments:
   giscus:
     repo: "opensilabs/opensilabs.github.io"
     repo-id: "R_kgDOU8agVA"
-    category: "Announcements"
+    category: "Ideas"
     category-id: "DIC_kwDOU8agVM4DHFeO"
 
 # if no id is provided, this feature will be disabled.
