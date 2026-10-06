@@ -1,0 +1,45 @@
+# Decodes base64-encoded images pushed as *.b64.txt into real PNG files.
+# The site's push API is text-only, so the article pipeline pushes images as
+# base64 text (assets/img/posts/<slug>.b64.txt); this workflow converts them.
+name: Ingest base64 images
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'assets/img/posts/**.b64.txt'
+
+permissions:
+  contents: write
+
+jobs:
+  decode:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Find newly added .b64.txt files
+        id: find
+        run: |
+          files=$(git diff --diff-filter=A --name-only HEAD~1 HEAD -- 'assets/img/posts/*.b64.txt' || true)
+          {
+            echo "files<<EOF"
+            echo "$files"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+      - name: Decode to PNG and commit
+        if: steps.find.outputs.files != ''
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          echo "${{ steps.find.outputs.files }}" | while read -r f; do
+            [ -z "$f" ] && continue
+            [ -f "$f" ] || continue
+            png="${f%.b64.txt}.png"
+            base64 -d "$f" > "$png" || { echo "decode failed: $f"; exit 1; }
+            git add "$png"
+            git rm -q "$f"
+          done
+          git commit -m "Ingest decoded PNG cover images" || echo "nothing to commit"
+          git push
