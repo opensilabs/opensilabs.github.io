@@ -1,7 +1,10 @@
 /* Mr. Green Jekyll Theme (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
  * Copyright (c) 2022 Mr. Green's Workshop https://www.MrGreensWorkshop.com
  * Licensed under MIT
-*/
+ *
+ * Customized for OpenSI-Labs: prominent pill-style language switcher
+ * with globe icon and full native language names.
+ */
 
 #side-nav-container .lang-switch {
   margin-top: 13px;
@@ -9,17 +12,53 @@
 
 .lang-switch {
   @include get_scheme(lang-switch-colors-);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4px 8px;
+  max-width: 100%;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  border: 1px solid var(--lang-switch-text-color);
+  border-radius: 999px;
+  padding: 7px 16px;
+}
+
+.lang-switch-globe {
+  color: var(--lang-switch-text-color);
+  display: inline-flex;
+  align-items: center;
+  margin-right: 2px;
+}
+
+.lang-switch ul {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2px 4px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.lang-switch li {
   display: inline-block;
-  font-size: 1.4rem;
+  margin: 0 5px;
+  white-space: nowrap;
 }
 
 .lang-switch li > a {
   color: var(--lang-switch-text-color);
   display: block;
+  padding: 2px 5px;
+  border-radius: 6px;
 }
 
 .lang-switch li > a:hover {
   color: var(--lang-switch-hover-text-color);
+  background: rgba(128, 128, 128, 0.16);
   transition: all 0.2s ease;
 }
 
@@ -29,27 +68,10 @@
   text-decoration: none;
 }
 
-.lang-switch ul,
-.lang-switch p {
-  display: inline;
-}
-
-.lang-switch li {
-  display: inline-block;
-  margin-left: 4px;
-  margin-right: 4px;
-}
-
-.lang-switch ul {
-  padding: 0;
-  margin: 0;
-}
-
 .lang-switch .active-page {
   pointer-events: none;
   color: var(--lang-switch-active-text-color);
-}
-
-.lang-switch > p {
-  color: var(--lang-switch-text-color);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }

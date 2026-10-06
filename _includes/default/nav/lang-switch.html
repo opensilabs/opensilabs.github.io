@@ -35,7 +35,7 @@
 {%- if exist_lng_list.size > 1 %}
 
 <div class="lang-switch">
-  <p>[&nbsp;</p>
+  <span class="lang-switch-globe" aria-hidden="true"><i class="fa fa-globe"></i></span>
   {%- if lng_page_pair.size == lng_list.size and lng_page_pair.size > 0 -%}
     <ul translate="no">
     {%- for tmp_lng in exist_lng_list -%}
@@ -45,13 +45,13 @@
         {%- if get_lng != tmp_lng -%}{%-continue-%}{%- endif -%}
         {%- if get_lng == lng -%}{%- assign active_class = ' active-page' -%}{%- else -%}{%- assign active_class = '' -%}{%- endif -%}
         {%- include multi_lng/get-lng-code.liquid lng = get_lng -%}
-        <li lang="{{ lng_code }}"><a href="{{ site.baseurl }}{{ lng_page.url }}" class="{{ active_class }} {{ site.data.conf.main.language_switch_hover_effect }}">{{ site.data.lang[get_lng].lng.switch_title }}&nbsp;</a></li>
+        <li lang="{{ lng_code }}"><a href="{{ site.baseurl }}{{ lng_page.url }}" class="{{ active_class }} {{ site.data.conf.main.language_switch_hover_effect }}">{{ site.data.lang[get_lng].lng.name }}</a></li>
         {%- assign lng_set_flg = true -%}
       {%- endfor -%}
       {%- if lng_set_flg == nil -%}
         <li>
           <a href="javascript:void(0);" role="button" class="{{ site.data.conf.main.language_switch_hover_effect }}" onclick="showToolTip(this, '{{ site.data.lang[tmp_lng].no_translation_tooltip }}');" data-toggle="tooltip" data-placement="bottom" title="">
-            {{ site.data.lang[tmp_lng].lng.switch_title }}&nbsp;</a>
+            {{ site.data.lang[tmp_lng].lng.name }}</a>
         </li>
       {%- endif -%}
     {%- endfor -%}
@@ -64,7 +64,6 @@
   {%- endcomment -%}
     <p>lang count ({{lng_list.size}}) and file count ({{lng_page_pair.size}}) don't match or file count is 0&nbsp;</p> {%-comment-%} for debug purpose {%-endcomment-%}
   {%- endif -%}
-  <p>]</p>
 </div>
 
 {%- endif -%}
