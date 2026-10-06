@@ -5,6 +5,7 @@ author: OpenSI-Labs
 category: models
 tags: [Gemini, 長文脈, AIエージェント, Google DeepMind]
 date: 2026-10-06 00:30:00 -0700
+img: /assets/img/posts/2026-10-06-gemini-4-argon.png
 meta_description: "出力100万トークンとLong Decode Continuation——Gemini 4 Argonはエージェントの主戦場を知能から持久力へ移す。"
 ---
 # 疲れを知らないモデル

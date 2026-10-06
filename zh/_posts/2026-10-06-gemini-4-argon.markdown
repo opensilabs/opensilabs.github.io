@@ -5,6 +5,7 @@ author: OpenSI-Labs
 category: models
 tags: [Gemini, 长上下文, 智能体, Google DeepMind]
 date: 2026-10-06 00:30:00 -0700
+img: /assets/img/posts/2026-10-06-gemini-4-argon.png
 meta_description: "Gemini 4 Argon 以一百万 token 输出上限和 Long Decode Continuation，把智能体的前沿从智商之争改写为耐力之争。"
 ---
 # 不会累的模型

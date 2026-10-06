@@ -5,6 +5,7 @@ author: OpenSI-Labs
 category: research
 tags: [FP8, 大模型训练, 量化, NVIDIA]
 date: 2026-10-06 00:30:00 -0700
+img: /assets/img/posts/2026-10-06-delta-matching-fp8-training.png
 meta_description: "CMU/NVIDIA 论文以数学证明揪出 FP8 训练精度差距的根因——被破坏的 softmax 不变量，并用闭式修正填上最后一公里。"
 ---
 # 最后一块拼图：Delta-Matching 让 LLM 原生 FP8 训练真正落地

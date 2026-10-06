@@ -5,6 +5,7 @@ author: OpenSI-Labs
 category: research
 tags: [FP8, LLM学習, 量子化, NVIDIA]
 date: 2026-10-06 00:30:00 -0700
+img: /assets/img/posts/2026-10-06-delta-matching-fp8-training.png
 meta_description: "CMU/NVIDIAの論文がFP8学習の精度ギャップの根因——破られたsoftmax不変量——を証明し、閉形式で修復した。"
 ---
 # 最後の2倍を閉じた：Delta-MatchingとLLMネイティブFP8学習

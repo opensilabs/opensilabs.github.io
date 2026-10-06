@@ -5,6 +5,7 @@ author: OpenSI-Labs
 category: research
 tags: [FP8, LLM training, quantization, NVIDIA]
 date: 2026-10-06 00:30:00 -0700
+img: /assets/img/posts/2026-10-06-delta-matching-fp8-training.png
 meta_description: "A CMU/NVIDIA paper proves the root cause of FP8 training's accuracy gap — a violated softmax invariant — and fixes it in closed form."
 ---
 # The Last 2×: How Delta-Matching Closed Native FP8 Training for LLMs

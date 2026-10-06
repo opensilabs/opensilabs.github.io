@@ -5,6 +5,7 @@ author: OpenSI-Labs
 category: models
 tags: [open weights, Reflection AI, Nvidia, DeepSeek, AI policy]
 date: 2026-10-05 06:00:00 -0700
+img: /assets/img/posts/2026-10-05-reflection-open-weight-model.png
 meta_description: "Nvidia-backed Reflection AI is about to release its first open-weight model — a direct challenge to DeepSeek and Qwen that could rewrite who owns the open AI stack."
 ---
 

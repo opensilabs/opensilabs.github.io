@@ -5,6 +5,7 @@ author: OpenSI-Labs
 category: models
 tags: [modèles de décision, agents IA, AWS, open source, LLM]
 date: 2026-10-05 06:00:00 -0700
+img: /assets/img/posts/2026-10-05-strands-decider-2b.png
 meta_description: "Strands Decider 2B d'AWS remplace la tête de modélisation du langage par une tête de pointage — un modèle de décision qui choisit au lieu de générer, en une seule passe."
 ---
 

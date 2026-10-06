@@ -5,6 +5,7 @@ author: OpenSI-Labs
 category: models
 tags: [Gemini, long-context, AI agents, Google DeepMind]
 date: 2026-10-06 00:30:00 -0700
+img: /assets/img/posts/2026-10-06-gemini-4-argon.png
 meta_description: "Gemini 4 Argon's million-token output ceiling and Long Decode Continuation reframe the agent frontier around stamina, not IQ."
 ---
 # The Model That Doesn't Get Tired

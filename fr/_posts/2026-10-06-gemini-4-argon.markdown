@@ -5,6 +5,7 @@ author: OpenSI-Labs
 category: models
 tags: [Gemini, contexte-long, agents-IA, Google DeepMind]
 date: 2026-10-06 00:30:00 -0700
+img: /assets/img/posts/2026-10-06-gemini-4-argon.png
 meta_description: "Le plafond d'un million de tokens en sortie et Long Decode Continuation de Gemini 4 Argon déplacent la frontière des agents vers l'endurance."
 ---
 # Le modèle qui ne se fatigue pas

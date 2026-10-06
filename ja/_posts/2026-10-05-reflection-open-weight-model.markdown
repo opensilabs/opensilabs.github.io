@@ -5,6 +5,7 @@ author: OpenSI-Labs
 category: models
 tags: [オープンウェイト, Reflection AI, Nvidia, DeepSeek, AI政策]
 date: 2026-10-05 06:00:00 -0700
+img: /assets/img/posts/2026-10-05-reflection-open-weight-model.png
 meta_description: "Nvidia支援のReflection AIが初のオープンウェイトモデルを間もなく公開——DeepSeekとQwenへの挑戦状であり、オープンAIの勢力図を塗り替える可能性がある。"
 ---
 

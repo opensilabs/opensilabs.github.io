@@ -5,6 +5,7 @@ author: OpenSI-Labs
 category: models
 tags: [決定モデル, AIエージェント, AWS, オープンソース, LLM]
 date: 2026-10-05 06:00:00 -0700
+img: /assets/img/posts/2026-10-05-strands-decider-2b.png
 meta_description: "AWSのStrands Decider 2Bは言語モデリングヘッドを切り離しポインタヘッドに置換——生成せず選ぶだけの決定モデルを単一フォワードパスで実現。"
 ---
 

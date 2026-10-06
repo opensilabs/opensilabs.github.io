@@ -5,6 +5,7 @@ author: OpenSI-Labs
 category: models
 tags: [decision models, AI agents, AWS, open source, LLM]
 date: 2026-10-05 06:00:00 -0700
+img: /assets/img/posts/2026-10-05-strands-decider-2b.png
 meta_description: "AWS's Strands Decider 2B removes the language-modeling head and replaces it with a pointer head — a decision model that chooses instead of generating, in a single forward pass."
 ---
 

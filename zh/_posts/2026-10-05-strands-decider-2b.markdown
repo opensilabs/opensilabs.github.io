@@ -5,6 +5,7 @@ author: OpenSI-Labs
 category: models
 tags: [决策模型, 智能体, AWS, 开源, 大语言模型]
 date: 2026-10-05 06:00:00 -0700
+img: /assets/img/posts/2026-10-05-strands-decider-2b.png
 meta_description: "AWS 的 Strands Decider 2B 切掉语言模型头、换上指针头——只做选择不做生成的决策模型，一次前向传播给出答案。"
 ---
 

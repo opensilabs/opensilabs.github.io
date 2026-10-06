@@ -5,6 +5,7 @@ author: OpenSI-Labs
 category: research
 tags: [FP8, entraînement-LLM, quantification, NVIDIA]
 date: 2026-10-06 00:30:00 -0700
+img: /assets/img/posts/2026-10-06-delta-matching-fp8-training.png
 meta_description: "Un article CMU/NVIDIA prouve la cause racine de l'écart de précision du FP8 — un invariant du softmax violé — et le répare sous forme close."
 ---
 # Le dernier facteur 2 : comment Delta-Matching a bouclé l'entraînement natif FP8 des LLM
