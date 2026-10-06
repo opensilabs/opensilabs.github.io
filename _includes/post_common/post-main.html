@@ -9,6 +9,12 @@
 <div class="multipurpose-container post-container">
   <div class="post-title"><h1>{{ page_title }}</h1></div>
   {%- include post_common/post-info-html.html date=post_date read_time=read_time url=post_url comment_style = comment_style -%}
+  {%- if include.post.img -%}
+    {%- include default/img/get-img-path.liquid img_name=include.post.img layout="post" -%}
+    <div class="post-cover-image" style="margin: 1.2rem 0 0.4rem;">
+      <img src="{{ get_img_path_out | strip }}" alt="{{ page_title }}" style="width: 100%; height: auto; border-radius: 8px; display: block;" loading="lazy">
+    </div>
+  {%- endif -%}
   <hr/>
   <div class="markdown-style">
     {{ include.post.content }}
