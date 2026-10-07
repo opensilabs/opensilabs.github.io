@@ -36,11 +36,3 @@ img: ":home-heading.jpg"
 # don't forget that this is root index.html. If you disable this, there will be no index.html page to open
 #published: false
 ---
-
-### 知能のフロンティアを探る
-
-**OpenSI-Labs** は最先端AIのデイリーブログです——フィジカルAI、世界モデル、大規模・小規模言語モデル、知識グラフ、AIエージェント、生物模倣知能、そしてそれらを動かすチップ。
-
-世界トップの学術誌、会議、研究所、コミュニティから、その日最も衝撃的な出来事ひとつを選び、平易な言葉で解説します——英語・中国語・フランス語・日本語の4言語で同時公開。
-
-最新の記事は下の一覧からどうぞ。すべての記事にコメントを開放しています——ぜひ会話にご参加ください。

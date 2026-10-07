@@ -36,11 +36,3 @@ img: ":home-heading.jpg"
 # don't forget that this is root index.html. If you disable this, there will be no index.html page to open
 #published: false
 ---
-
-### Explore the frontier of intelligence
-
-**OpenSI-Labs** is a daily journal on frontier AI — physical AI, world models, large and small language models, knowledge graphs, AI agents, bio-inspired intelligence, and the chips that power them.
-
-Every day we pick the single most explosive development from the world's top journals, conferences, labs and communities, and explain it in plain language — in English, 中文, Français and 日本語.
-
-The latest articles are listed below. Comments are open on every post — join the conversation.

@@ -36,11 +36,3 @@ img: ":home-heading.jpg"
 # don't forget that this is root index.html. If you disable this, there will be no index.html page to open
 #published: false
 ---
-
-### Explorer la frontière de l'intelligence
-
-**OpenSI-Labs** est un journal quotidien sur l'IA de pointe — IA physique, modèles du monde, grands et petits modèles de langage, graphes de connaissances, agents IA, intelligence bio-inspirée, et les puces qui les alimentent.
-
-Chaque jour, nous retenons le développement le plus marquant parmi les meilleures revues, conférences, laboratoires et communautés du monde, et nous l'expliquons en langage clair — en anglais, chinois, français et japonais.
-
-Les derniers articles sont listés ci-dessous. Les commentaires sont ouverts sur chaque article — rejoignez la conversation.

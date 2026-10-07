@@ -36,11 +36,3 @@ img: ":home-heading.jpg"
 # don't forget that this is root index.html. If you disable this, there will be no index.html page to open
 #published: false
 ---
-
-### 探索智能的前沿
-
-**OpenSI-Labs** 是专注前沿 AI 的每日博客——物理 AI、世界模型、大语言模型与小语言模型、知识图谱、智能体、仿生智能，以及驱动它们的芯片。
-
-我们每天从全球顶级期刊、会议、实验室和社区中，选出最具爆炸性的一个进展，用通俗的语言讲清楚——英语、中文、法语、日语四种版本同步发布。
-
-最新文章见下方列表。每篇文章都开放评论，欢迎参与讨论。

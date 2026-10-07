@@ -3,9 +3,12 @@
  * Licensed under MIT
 */
 
+/* Customized for OpenSI-Labs: article list spans the same full width as the
+ * heading banner card above (theme default inset it by 5% on each side).
+ */
 .new-posts-container {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .new-posts-container h1 {
@@ -51,11 +54,4 @@
 /* remove last spacing */
 .new-posts > li:last-child {
   margin-bottom: 0px;
-}
-
-@media screen and (max-width: 500px) {
-  .new-posts-container {
-    margin-left: unset;
-    margin-right: unset;
-  }
 }
