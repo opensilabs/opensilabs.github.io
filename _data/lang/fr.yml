@@ -141,7 +141,7 @@ footer:
 
 # for home layout
 home:
-  title: Bienvenue
+  title: "L'IA de pointe, expliquée chaque jour"
   button_name: Accueil
   new_posts_title: Nouveaux articles
   new_posts_show_more_button: Voir plus ...

@@ -141,7 +141,7 @@ footer:
 
 # for home layout
 home:
-  title: 欢迎
+  title: "前沿 AI，每日解读"
   button_name: 首页
   new_posts_title: 新文章
   new_posts_show_more_button: 阅读更多信息 …

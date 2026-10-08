@@ -13,6 +13,8 @@
 
 {%- if  page.layout == 'post' -%}
 <title>{{ page_title | truncate: 60 }}</title>
+{%- elsif page.layout == 'home' -%}
+<title>{{ site.data.owner[lng].brand | truncate: 60 }}</title>
 {%- else -%}
 <title>{{ page_title_tag | truncate: 60 }}</title>
 {%- endif %}
