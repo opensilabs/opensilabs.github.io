@@ -108,11 +108,11 @@ image_viewer_error_add_path: true
 #                Image lazy loader
 ###########################################################
 # this enables image lazy loader
-image_lazy_loader: true
+image_lazy_loader: false
 
 # this enables image lazy loader for all posts
 # even if you disable for all posts, you can still turn on individually by adding "image_lazy_loader_on: true" on header of any page.
-image_lazy_loader_posts: true
+image_lazy_loader_posts: false
 
 ###########################################################
 #                Color scheme switch
