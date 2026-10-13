@@ -6,7 +6,7 @@ category: research
 tags: [元推理, AI智能体, 推理扩展, LLM控制, 测试时计算]
 date: 2026-10-12 06:00:00 -0700
 img: /assets/img/posts/2026-10-12-meta-thinking-before-thinking.png
-meta_description: "Meta《Thinking Before Thinking》把智能体拆成干活的工人和做决策的控制器——把花在"控制"上的算力变成一条新的扩展轴线。"
+meta_description: "Meta《Thinking Before Thinking》把智能体拆成干活的工人和做决策的控制器——把花在控制上的算力变成一条新的扩展轴线。"
 ---
 
 每个 AI 智能体都在同时干两份活：做事，和决定下一步做什么。继续、回退、换路，还是停？今天的框架里，控制决策和做事缠在一起，靠着一团乱麻的历史临时拍板。
