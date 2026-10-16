@@ -19,27 +19,27 @@ meta_description: "编程智能体自行构建地球观测模型并在自身输�
 
 <figure>
 <svg viewBox="0 0 680 360" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;height:auto;font-family:system-ui,sans-serif">
-<text x="340" y="28" font-size="17" font-weight="bold" text-anchor="middle">RSI4EO: people design the exam, the agent builds the model</text>
+<text x="340" y="28" font-size="17" font-weight="bold" text-anchor="middle">RSI4EO：人出考题，智能体建模型</text>
 <rect x="20" y="60" width="200" height="110" rx="10" fill="#eef4ff" stroke="#3366cc" stroke-width="1.5"/>
-<text x="120" y="86" font-size="14" font-weight="bold" text-anchor="middle">Designed by people</text>
-<text x="120" y="110" font-size="14" text-anchor="middle">Harness: data · tools ·</text>
-<text x="120" y="130" font-size="14" text-anchor="middle">compute the agent may use</text>
-<text x="120" y="152" font-size="14" text-anchor="middle" font-style="italic">Sealed verifier: scores</text>
+<text x="120" y="86" font-size="14" font-weight="bold" text-anchor="middle">人工设计</text>
+<text x="120" y="110" font-size="14" text-anchor="middle">工具箱：数据 · 工具 ·</text>
+<text x="120" y="130" font-size="14" text-anchor="middle">智能体可用的算力</text>
+<text x="120" y="152" font-size="14" text-anchor="middle" font-style="italic">密封验证器：打分</text>
 <rect x="250" y="60" width="180" height="110" rx="10" fill="#fff8ee" stroke="#cc8833" stroke-width="1.5"/>
-<text x="340" y="86" font-size="14" font-weight="bold" text-anchor="middle">Coding agent</text>
-<text x="340" y="110" font-size="14" text-anchor="middle">builds the EO model,</text>
-<text x="340" y="130" font-size="14" text-anchor="middle">improves it recursively</text>
-<text x="340" y="152" font-size="14" text-anchor="middle">on its own outputs</text>
+<text x="340" y="86" font-size="14" font-weight="bold" text-anchor="middle">代码智能体</text>
+<text x="340" y="110" font-size="14" text-anchor="middle">构建地球观测模型，</text>
+<text x="340" y="130" font-size="14" text-anchor="middle">在自身输出上递归改进</text>
+<text x="340" y="152" font-size="14" text-anchor="middle"></text>
 <rect x="460" y="60" width="200" height="110" rx="10" fill="#eefbf1" stroke="#339966" stroke-width="1.5"/>
-<text x="560" y="86" font-size="14" font-weight="bold" text-anchor="middle">Better EO model</text>
-<text x="560" y="110" font-size="14" text-anchor="middle">flood / crop / damage</text>
-<text x="560" y="130" font-size="14" text-anchor="middle">maps from satellite</text>
-<text x="560" y="152" font-size="14" text-anchor="middle">imagery</text>
+<text x="560" y="86" font-size="14" font-weight="bold" text-anchor="middle">更优的地球观测模型</text>
+<text x="560" y="110" font-size="14" text-anchor="middle">洪水 / 作物 / 灾损</text>
+<text x="560" y="130" font-size="14" text-anchor="middle">卫星影像制图</text>
+<text x="560" y="152" font-size="14" text-anchor="middle"></text>
 <line x1="220" y1="115" x2="246" y2="115" stroke="#3366cc" stroke-width="2" marker-end="url(#m1)"/>
 <line x1="430" y1="115" x2="456" y2="115" stroke="#cc8833" stroke-width="2" marker-end="url(#m1)"/>
 <path d="M 560 170 C 560 260, 120 260, 120 176" fill="none" stroke="#339966" stroke-width="2" stroke-dasharray="7,5" marker-end="url(#m1)"/>
-<text x="340" y="300" font-size="14" text-anchor="middle" font-style="italic">the output of one cycle becomes the input of the next</text>
-<text x="340" y="330" font-size="14" text-anchor="middle">verifiable via labels · independent sensors · physical models · repeat observation</text>
+<text x="340" y="300" font-size="14" text-anchor="middle" font-style="italic">上一轮的输出成为下一轮的输入</text>
+<text x="340" y="330" font-size="14" text-anchor="middle">可验证：标注 · 独立传感器 · 物理模型 · 重复观测</text>
 <defs><marker id="m1" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#555"/></marker></defs>
 </svg>
 <figcaption>这个循环：人设计脚手架与密封考官；智能体构建模型，并在自身输出上改进它。</figcaption>
@@ -51,15 +51,15 @@ meta_description: "编程智能体自行构建地球观测模型并在自身输�
 
 <figure>
 <svg viewBox="0 0 680 260" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;height:auto;font-family:system-ui,sans-serif">
-<text x="340" y="28" font-size="17" font-weight="bold" text-anchor="middle">Label efficiency: ~1% of labels, most of the accuracy</text>
-<text x="200" y="70" font-size="14" text-anchor="end">Full labels</text>
+<text x="340" y="28" font-size="17" font-weight="bold" text-anchor="middle">标注效率：约1%标注量，保留大部分精度</text>
+<text x="200" y="70" font-size="14" text-anchor="end">全量标注</text>
 <rect x="210" y="54" width="380" height="24" rx="4" fill="#3366cc"/><text x="598" y="71" font-size="14">100%</text>
-<text x="200" y="116" font-size="14" text-anchor="end">0.2–1.4% of labels</text>
-<rect x="210" y="100" width="290" height="24" rx="4" fill="#cc8833"/><text x="508" y="117" font-size="14">69–84% of score</text>
-<text x="200" y="162" font-size="14" text-anchor="end">Published baselines</text>
-<rect x="210" y="146" width="330" height="24" rx="4" fill="#999"/><text x="548" y="163" font-size="14">beaten 4 / 4</text>
-<text x="340" y="210" font-size="14" text-anchor="middle">four benchmarks: optical · SAR · multispectral time-series</text>
-<text x="340" y="236" font-size="14" text-anchor="middle" font-style="italic">agent-built models surpass the state of the art on every task</text>
+<text x="200" y="116" font-size="14" text-anchor="end">0.2–1.4% 标注量</text>
+<rect x="210" y="100" width="290" height="24" rx="4" fill="#cc8833"/><text x="508" y="117" font-size="14">69–84% 得分</text>
+<text x="200" y="162" font-size="14" text-anchor="end">已发表基线</text>
+<rect x="210" y="146" width="330" height="24" rx="4" fill="#999"/><text x="548" y="163" font-size="14">4/4 被超越</text>
+<text x="340" y="210" font-size="14" text-anchor="middle">四个基准：光学 · SAR · 多光谱时序</text>
+<text x="340" y="236" font-size="14" text-anchor="middle" font-style="italic">智能体构建的模型在所有任务上超越最优水平</text>
 </svg>
 <figcaption>只用一小部分标注，智能体构建的模型就保留了大部分精度——还击败了所有已发表基线。</figcaption>
 </figure>

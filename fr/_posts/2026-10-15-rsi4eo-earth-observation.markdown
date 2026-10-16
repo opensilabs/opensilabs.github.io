@@ -19,27 +19,27 @@ Le mécanisme tient en deux mots : harnais et vérificateur. Le harnais, c'est t
 
 <figure>
 <svg viewBox="0 0 680 360" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;height:auto;font-family:system-ui,sans-serif">
-<text x="340" y="28" font-size="17" font-weight="bold" text-anchor="middle">RSI4EO: people design the exam, the agent builds the model</text>
+<text x="340" y="28" font-size="17" font-weight="bold" text-anchor="middle">RSI4EO : l'humain conçoit l'examen, l'agent construit le modèle</text>
 <rect x="20" y="60" width="200" height="110" rx="10" fill="#eef4ff" stroke="#3366cc" stroke-width="1.5"/>
-<text x="120" y="86" font-size="14" font-weight="bold" text-anchor="middle">Designed by people</text>
-<text x="120" y="110" font-size="14" text-anchor="middle">Harness: data · tools ·</text>
-<text x="120" y="130" font-size="14" text-anchor="middle">compute the agent may use</text>
-<text x="120" y="152" font-size="14" text-anchor="middle" font-style="italic">Sealed verifier: scores</text>
+<text x="120" y="86" font-size="14" font-weight="bold" text-anchor="middle">Conçu par l'humain</text>
+<text x="120" y="110" font-size="14" text-anchor="middle">Harnais : données · outils ·</text>
+<text x="120" y="130" font-size="14" text-anchor="middle">calcul utilisable par l'agent</text>
+<text x="120" y="152" font-size="14" text-anchor="middle" font-style="italic">Vérificateur scellé : évalue</text>
 <rect x="250" y="60" width="180" height="110" rx="10" fill="#fff8ee" stroke="#cc8833" stroke-width="1.5"/>
-<text x="340" y="86" font-size="14" font-weight="bold" text-anchor="middle">Coding agent</text>
-<text x="340" y="110" font-size="14" text-anchor="middle">builds the EO model,</text>
-<text x="340" y="130" font-size="14" text-anchor="middle">improves it recursively</text>
-<text x="340" y="152" font-size="14" text-anchor="middle">on its own outputs</text>
+<text x="340" y="86" font-size="14" font-weight="bold" text-anchor="middle">Agent codeur</text>
+<text x="340" y="110" font-size="14" text-anchor="middle">construit le modèle OT,</text>
+<text x="340" y="130" font-size="14" text-anchor="middle">l'améliore récursivement</text>
+<text x="340" y="152" font-size="14" text-anchor="middle">sur ses propres sorties</text>
 <rect x="460" y="60" width="200" height="110" rx="10" fill="#eefbf1" stroke="#339966" stroke-width="1.5"/>
-<text x="560" y="86" font-size="14" font-weight="bold" text-anchor="middle">Better EO model</text>
-<text x="560" y="110" font-size="14" text-anchor="middle">flood / crop / damage</text>
-<text x="560" y="130" font-size="14" text-anchor="middle">maps from satellite</text>
-<text x="560" y="152" font-size="14" text-anchor="middle">imagery</text>
+<text x="560" y="86" font-size="14" font-weight="bold" text-anchor="middle">Meilleur modèle OT</text>
+<text x="560" y="110" font-size="14" text-anchor="middle">inondation / cultures / dégâts</text>
+<text x="560" y="130" font-size="14" text-anchor="middle">cartes d'imagerie</text>
+<text x="560" y="152" font-size="14" text-anchor="middle">satellite</text>
 <line x1="220" y1="115" x2="246" y2="115" stroke="#3366cc" stroke-width="2" marker-end="url(#m1)"/>
 <line x1="430" y1="115" x2="456" y2="115" stroke="#cc8833" stroke-width="2" marker-end="url(#m1)"/>
 <path d="M 560 170 C 560 260, 120 260, 120 176" fill="none" stroke="#339966" stroke-width="2" stroke-dasharray="7,5" marker-end="url(#m1)"/>
-<text x="340" y="300" font-size="14" text-anchor="middle" font-style="italic">the output of one cycle becomes the input of the next</text>
-<text x="340" y="330" font-size="14" text-anchor="middle">verifiable via labels · independent sensors · physical models · repeat observation</text>
+<text x="340" y="300" font-size="14" text-anchor="middle" font-style="italic">la sortie d'un cycle devient l'entrée du suivant</text>
+<text x="340" y="330" font-size="14" text-anchor="middle">vérifiable : labels · capteurs indépendants · modèles physiques · observation répétée</text>
 <defs><marker id="m1" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#555"/></marker></defs>
 </svg>
 <figcaption>La boucle : les humains conçoivent le harnais et le vérificateur scellé ; l'agent construit le modèle et l'améliore sur ses propres sorties.</figcaption>
@@ -51,15 +51,15 @@ Ce sont les chiffres qui font passer ce papier du manifeste au résultat. Sur qu
 
 <figure>
 <svg viewBox="0 0 680 260" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;height:auto;font-family:system-ui,sans-serif">
-<text x="340" y="28" font-size="17" font-weight="bold" text-anchor="middle">Label efficiency: ~1% of labels, most of the accuracy</text>
-<text x="200" y="70" font-size="14" text-anchor="end">Full labels</text>
+<text x="340" y="28" font-size="17" font-weight="bold" text-anchor="middle">Efficacité des labels : ~1% des labels, l'essentiel de la précision</text>
+<text x="200" y="70" font-size="14" text-anchor="end">Labels complets</text>
 <rect x="210" y="54" width="380" height="24" rx="4" fill="#3366cc"/><text x="598" y="71" font-size="14">100%</text>
-<text x="200" y="116" font-size="14" text-anchor="end">0.2–1.4% of labels</text>
-<rect x="210" y="100" width="290" height="24" rx="4" fill="#cc8833"/><text x="508" y="117" font-size="14">69–84% of score</text>
-<text x="200" y="162" font-size="14" text-anchor="end">Published baselines</text>
-<rect x="210" y="146" width="330" height="24" rx="4" fill="#999"/><text x="548" y="163" font-size="14">beaten 4 / 4</text>
-<text x="340" y="210" font-size="14" text-anchor="middle">four benchmarks: optical · SAR · multispectral time-series</text>
-<text x="340" y="236" font-size="14" text-anchor="middle" font-style="italic">agent-built models surpass the state of the art on every task</text>
+<text x="200" y="116" font-size="14" text-anchor="end">0,2–1,4% des labels</text>
+<rect x="210" y="100" width="290" height="24" rx="4" fill="#cc8833"/><text x="508" y="117" font-size="14">69–84% du score</text>
+<text x="200" y="162" font-size="14" text-anchor="end">Baselines publiées</text>
+<rect x="210" y="146" width="330" height="24" rx="4" fill="#999"/><text x="548" y="163" font-size="14">battues 4/4</text>
+<text x="340" y="210" font-size="14" text-anchor="middle">quatre benchmarks : optique · SAR · séries multispectrales</text>
+<text x="340" y="236" font-size="14" text-anchor="middle" font-style="italic">les modèles d'agent surpassent l'état de l'art sur chaque tâche</text>
 </svg>
 <figcaption>Avec une infime fraction des étiquettes, les modèles construits par l'agent conservent l'essentiel de leur précision — et battent tous les baselines publiés.</figcaption>
 </figure>
