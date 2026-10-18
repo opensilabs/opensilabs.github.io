@@ -4,7 +4,7 @@ title: "真実は14ドル：AIが調べものをする時代、答えを書く�
 author: OpenSI-Labs
 category: research
 tags: [AI検索, 情報汚染, GEO, 認識セキュリティ, LLM]
-date: 2026-10-18 06:00:00 -0700
+date: 2026-10-17 21:30:00 -0700
 img: /assets/img/posts/2026-10-18-ai-search-poisoning.png
 meta_description: "復旦チームが実証：捏造概念が1週間で10中8のAI検索プラットフォームに引用される——14ドルで。引用メカニズムには構造的亀裂があり、ユーザーは修復の鍵を持たない。"
 ---

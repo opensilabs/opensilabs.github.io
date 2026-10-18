@@ -4,7 +4,7 @@ title: "十四美元，买下真相：当AI开始替我们查资料，谁在替A
 author: OpenSI-Labs
 category: research
 tags: [AI搜索, 信息污染, GEO, 认知安全, 大语言模型]
-date: 2026-10-18 06:00:00 -0700
+date: 2026-10-17 21:30:00 -0700
 img: /assets/img/posts/2026-10-18-ai-search-poisoning.png
 meta_description: "复旦团队实测：花14美元，编造的概念一周内被8个AI搜索平台引用。AI搜索的引用机制存在结构性裂缝，而修补它的钥匙不在用户手里。"
 ---

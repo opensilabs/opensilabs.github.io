@@ -4,7 +4,7 @@ title: "Fourteen Dollars for the Truth: Who Writes the Answers When AI Does Our 
 author: OpenSI-Labs
 category: research
 tags: [AI search, information pollution, GEO, epistemic security, LLMs]
-date: 2026-10-18 06:00:00 -0700
+date: 2026-10-17 21:30:00 -0700
 img: /assets/img/posts/2026-10-18-ai-search-poisoning.png
 meta_description: "A Fudan team proved a fabricated concept gets cited by 8 of 10 AI search platforms within a week — for $14. The citation mechanism has a structural crack, and users hold no key to fix it."
 ---

@@ -4,7 +4,7 @@ title: "Quatorze dollars pour la vérité : qui écrit les réponses quand l'IA 
 author: OpenSI-Labs
 category: research
 tags: [recherche IA, pollution informationnelle, GEO, sécurité épistémique, LLM]
-date: 2026-10-18 06:00:00 -0700
+date: 2026-10-17 21:30:00 -0700
 img: /assets/img/posts/2026-10-18-ai-search-poisoning.png
 meta_description: "Une équipe de Fudan a prouvé qu'un concept fabriqué est cité par 8 plateformes de recherche IA sur 10 en une semaine — pour 14 dollars. Le mécanisme de citation a une faille structurelle, et les utilisateurs n'ont aucune clé pour la réparer."
 ---
