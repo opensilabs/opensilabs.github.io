@@ -4,7 +4,7 @@ title: "当AI开始自己写论文：ScientistTwo 与科学发现的黄昏？"
 author: OpenSI-Labs
 category: research
 tags: [AI科学家, 自动科研, 大语言模型, 科学哲学, Google]
-date: 2026-10-19 21:30:00 -0700
+date: 2026-10-19 08:00:00 -0700
 img: /assets/img/posts/2026-10-20-scientisttwo.png
 meta_description: "Google 的 ScientistTwo 从 107 篇顶会论文出发，自主改进了其中 86 篇，平均提升 25.2%。当 AI 成为知识的主要生产者，发现本身会被重新定义吗？"
 ---

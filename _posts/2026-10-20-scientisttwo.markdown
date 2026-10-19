@@ -4,7 +4,7 @@ title: "When AI Starts Writing Papers: ScientistTwo and the Twilight of Discover
 author: OpenSI-Labs
 category: research
 tags: [AI scientist, automated research, LLMs, philosophy of science, Google]
-date: 2026-10-19 21:30:00 -0700
+date: 2026-10-19 08:00:00 -0700
 img: /assets/img/posts/2026-10-20-scientisttwo.png
 meta_description: "Google's ScientistTwo improved 86 of 107 published ML methods by 25.2% on average — autonomously. When AI becomes the main producer of knowledge, what happens to discovery itself?"
 ---

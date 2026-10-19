@@ -4,7 +4,7 @@ title: "AIが論文を書き始めた日：ScientistTwoと発見の黄昏"
 author: OpenSI-Labs
 category: research
 tags: [AI科学者, 自動研究, LLM, 科学哲学, Google]
-date: 2026-10-19 21:30:00 -0700
+date: 2026-10-19 08:00:00 -0700
 img: /assets/img/posts/2026-10-20-scientisttwo.png
 meta_description: "GoogleのScientistTwoは107のML手法のうち86を平均25.2%改善——自律的に。AIが知識の主要な生産者になるとき、発見そのものはどうなるのか。"
 ---

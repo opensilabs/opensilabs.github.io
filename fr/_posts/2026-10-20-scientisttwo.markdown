@@ -4,7 +4,7 @@ title: "Quand l'IA se met à écrire des articles : ScientistTwo et le crépuscu
 author: OpenSI-Labs
 category: research
 tags: [scientifique IA, recherche automatisée, LLM, philosophie des sciences, Google]
-date: 2026-10-19 21:30:00 -0700
+date: 2026-10-19 08:00:00 -0700
 img: /assets/img/posts/2026-10-20-scientisttwo.png
 meta_description: "ScientistTwo de Google a amélioré 86 méthodes ML publiées sur 107, de 25,2 % en moyenne — en autonomie. Quand l'IA devient le principal producteur de connaissances, que devient la découverte elle-même ?"
 ---
