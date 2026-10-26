@@ -1,0 +1,64 @@
+---
+lng_pair: id_20261025_kimi-k3-1-pro
+title: "The Open Model That Nearly Caught the Frontier — After Its Maker Dulled Its Edge"
+author: OpenSI-Labs
+category: research
+tags: [Kimi, Moonshot AI, open weights, agentic coding, mixture-of-experts, AI safety]
+date: 2026-10-25 05:00:00 -0700
+img: /assets/img/posts/2026-10-25-kimi-k3-1-pro.png
+meta_description: "Moonshot's Kimi K3.1 Pro scores 55 on Artificial Analysis's Intelligence Index — three points off the frontier — from the same base model as K3, trained much harder. Before promising open weights by November 4, Moonshot deliberately removed its cyberattack training data."
+---
+
+On Friday, Moonshot AI released the most capable open-weight model ever promised — and admitted it had made the model worse on purpose.
+
+Kimi K3.1 Pro is the first model in Moonshot's K3.1 series, a post-trained upgrade of Kimi K3 from July. Same architecture, same size: 2.8 trillion parameters in a mixture-of-experts design, 104 billion active per token, a 1-million-token context window. What changed is everything after pretraining: joint reinforcement learning across hundreds of downstream domains, with far more post-training compute than K3 received. The result suggests the biggest gains in today's AI may no longer come from building a bigger base model, but from training the one you already have much harder.
+
+The independent evidence is striking. [Artificial Analysis](https://artificialanalysis.ai/articles/kimi-k3-1-pro-launch-benchmarks), which runs the same tests on every major model, scores K3.1 Pro at 55 on its Intelligence Index — fourth overall, behind only three closed models: Claude Opus 5.5 (58), Claude Sonnet 5.5 (56) and Meta's Muse Wonder Full (56). K3 scored 44. Once the weights ship, Artificial Analysis says, it will be the highest-scoring open-weight model on the index, and the open–closed gap will narrow from 12 points to 3. On its own Terminal-Bench 4.0 run, Artificial Analysis measured 67% — the highest of any model it has tested, up from 13% for K3. Office work improved too: GDPval-AA rose 312 Elo points to 1,846, third behind only Opus 5.5 and Muse Wonder Full.
+
+<figure>
+<div style="text-align:center">
+<svg width="680" height="360" viewBox="0 0 680 360" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif">
+<text x="340" y="28" font-size="17" font-weight="bold" text-anchor="middle">The open–closed gap, in one chart</text>
+<text x="340" y="52" font-size="14" text-anchor="middle">Artificial Analysis Intelligence Index, October 2026</text>
+<text x="195" y="86" font-size="14" text-anchor="end">Claude Opus 5.5</text><rect x="205" y="70" width="406" height="20" fill="#718096"/><text x="619" y="86" font-size="14">58</text>
+<text x="195" y="120" font-size="14" text-anchor="end">Claude Sonnet 5.5</text><rect x="205" y="104" width="392" height="20" fill="#718096"/><text x="605" y="120" font-size="14">56</text>
+<text x="195" y="154" font-size="14" text-anchor="end">Muse Wonder Full</text><rect x="205" y="138" width="392" height="20" fill="#718096"/><text x="605" y="154" font-size="14">56</text>
+<text x="195" y="188" font-size="14" font-weight="bold" text-anchor="end">Kimi K3.1 Pro</text><rect x="205" y="172" width="385" height="20" fill="#2b6cb0"/><text x="598" y="188" font-size="14" font-weight="bold">55</text>
+<text x="195" y="222" font-size="14" text-anchor="end">Claude Fable 5.1</text><rect x="205" y="206" width="371" height="20" fill="#718096"/><text x="584" y="222" font-size="14">53</text>
+<text x="195" y="256" font-size="14" text-anchor="end">GPT-6 Astra</text><rect x="205" y="240" width="371" height="20" fill="#718096"/><text x="584" y="256" font-size="14">53</text>
+<text x="195" y="290" font-size="14" text-anchor="end">Gemini 4 Argon</text><rect x="205" y="274" width="371" height="20" fill="#718096"/><text x="584" y="290" font-size="14">53</text>
+<text x="195" y="324" font-size="14" text-anchor="end">Kimi K3</text><rect x="205" y="308" width="308" height="20" fill="#a0aec0"/><text x="521" y="324" font-size="14">44</text>
+<text x="340" y="352" font-size="14" text-anchor="middle">K3.1 Pro weights due by November 4; until then it is API-only.</text>
+</svg>
+</div>
+<figcaption style="text-align:center">Same base model, eleven more index points. The open–closed gap shrinks from 12 points to 3 once the weights ship.</figcaption>
+</figure>
+
+Moonshot's own table tells a similar story with a different accent. Moonshot reports 65.7% on Terminal-Bench 4.0, just behind Opus 5.5's 66.4% and ahead of GPT-6 Astra's 58.2%. That is not a contradiction of Artificial Analysis's 67%: the two groups ran different harnesses, and their rankings should not be mixed. Moonshot also claims the lead on SWE-Marathon (51.7% vs 46.3%) and a state-of-the-art 64.4 on OfficeQA Pro v2, a financial-document test. But its table is honest about the weak spots: on Terminal-Bench Science it scores 38.1% against 63.3% for Opus 5.5 and 68.1% for GPT-6 Astra, and on BenchCAD it trails both rivals. On Moonshot's hardest factual-accuracy stress test, the claim-level hallucination rate fell from 23.4% for K3 to 8.3% — a stress test, not an everyday rate; Artificial Analysis's separate measure fell from 53% to 44%.
+
+Then comes the part no launch post usually contains. As post-training scaled, Moonshot says, the model's ability to find and exploit software vulnerabilities kept improving. It traced that ability to cyber content in the training corpus and cyber tasks in its reinforcement-learning environments. For the open-weight release, it says, it "identified and removed cyber-related data from both training stages" while keeping the general coding tasks the model needs. On its in-house xdev-bench-hard test — an agent exploits recently disclosed vulnerabilities in software like the Linux kernel and Node.js — a checkpoint trained without those measures solved 90.5% of tasks; the released model solves 81.0%. For scale: the original K3 scored 33.3% on the same test. The "weakened" model is still far more capable than its predecessor — weaker only than the version Moonshot chose not to ship.
+
+<figure>
+<div style="text-align:center">
+<svg width="680" height="250" viewBox="0 0 680 250" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif">
+<text x="340" y="28" font-size="17" font-weight="bold" text-anchor="middle">Deliberately turned down — but still far above K3</text>
+<text x="340" y="52" font-size="14" text-anchor="middle">xdev-bench-hard, share of exploit tasks solved (pass@3)</text>
+<text x="195" y="86" font-size="14" text-anchor="end">Unfiltered checkpoint</text><rect x="205" y="70" width="362" height="20" fill="#718096"/><text x="575" y="86" font-size="14">90.5%</text>
+<text x="195" y="120" font-size="14" font-weight="bold" text-anchor="end">Kimi K3.1 Pro (released)</text><rect x="205" y="104" width="324" height="20" fill="#2b6cb0"/><text x="537" y="120" font-size="14" font-weight="bold">81.0%</text>
+<text x="195" y="154" font-size="14" text-anchor="end">Kimi K3</text><rect x="205" y="138" width="133" height="20" fill="#a0aec0"/><text x="346" y="154" font-size="14">33.3%</text>
+<text x="340" y="196" font-size="14" text-anchor="middle">Moonshot's in-house test; none of these figures has been independently verified.</text>
+<text x="340" y="220" font-size="14" text-anchor="middle">Removing training data beats adding a filter: a filter can be stripped, unlearned ability cannot be restored.</text>
+</svg>
+</div>
+<figcaption style="text-align:center">Dulled by removing cyber data from training itself — not by adding a refusal filter. The distinction matters once the weights are public.</figcaption>
+</figure>
+
+That choice matters because of one property of open weights: they cannot be recalled. Once the weights are public, anyone can strip out safety filters — and one company, Audn AI, has already announced plans to do exactly that to K3.1 Pro, as it did with GLM-5.3. But stripping a filter cannot restore a capability the model never learned in training. That is safety built in by absence rather than bolted on — and why Moonshot's stated policy — "not to release open weights that would extend the absolute frontier of cyber capability" — is enforceable in a way a usage policy never could be. Caveat: none of the cyber numbers has been independently verified, and 81% on an exploit benchmark is still formidable. Deliberately dulled is not harmless.
+
+The economics carry their own quiet twist. API prices fell by a third from K3: $2 per million input tokens, $10 per million output tokens, $0.20 for cached input. A faster Highspeed variant, two to three times quicker, costs $4/$20. But Artificial Analysis finds the cost per benchmark task essentially unchanged at $1.98 — K3.1 Pro uses 14% more output tokens per task (55,000 vs 48,000). Cheaper tokens do not automatically mean cheaper outcomes when the model talks more. You can try it free, with limited usage, on Kimi.ai, the Kimi apps, Kimi Work and Kimi Code.
+
+And a note on what "open" means at this scale. The weights — due by November 4, under a licence Moonshot has not yet confirmed — will weigh roughly 1.5 terabytes and need a cluster of 64 or more accelerators to run. Open here does not mean "runs on your laptop." It means any lab, company or government with serious hardware can inspect, modify and deploy a near-frontier model without Moonshot's permission. That is still a large change in who builds on the frontier — and why the deliberate dulling, not just the scores, is the part worth remembering.
+
+K3.1 Pro's real story is not that a bigger model arrived. It is that the same model, trained harder, jumped 11 points — and that its maker, staring at what that training had also taught it, reached for the dial before opening the door. Frontier labs have spent years arguing about whether to open their models. Moonshot just showed a third option: open the model, but decide in advance which of its powers travel with it.
+
+*Discussion: If a lab can tune a model's dangerous capabilities up or down before release, who should set the dial — the lab, a regulator, or the public that will inherit the weights? And does "open" still mean open when the weights arrive pre-weakened?*

@@ -1,0 +1,62 @@
+---
+lng_pair: id_20261025_kimi-k3-1-pro
+title: "フロンティアまであと3点、公開前にあえて刃を鈍らせたモデル：Kimi K3.1 Pro"
+author: OpenSI-Labs
+category: research
+tags: [Kimi, Moonshot AI, オープンウェイト, エージェントコーディング, 混合エキスパート, AIセーフティ]
+date: 2026-10-25 05:00:00 -0700
+img: /assets/img/posts/2026-10-25-kimi-k3-1-pro.png
+meta_description: "MoonshotのKimi K3.1 ProはArtificial Analysisの知能指数で55点を獲得し、最前線まであと3点に迫った。しかもK3と同じベースモデルを、より徹底的に追加学習したものだ。11月4日までのオープンウェイト公開を約束する前に、Moonshotはサイバー攻撃の学習データを意図的に削除した。"
+---
+
+10月23日、Moonshot AIはKimi K3.1 Proを公開した。最強のオープンウェイトモデルになるという。しかも意図的に弱めたうえでだ。
+
+K3.1シリーズ第一弾。7月のKimi K3の追加学習版。規模は同じ——2.8兆パラメータの混合エキスパート、1040億アクティブ、100万トークン。変わったのは事前学習の後。数百分野の統合強化学習にK3超の計算を投じた。進歩の源泉は大きな土台ではなく徹底的な追加学習かもしれない。
+
+独立評価：Artificial Analysis知能指数で55点、第4位。上位3つはすべてクローズド。K3は44点。ウェイト公開後、差は12点から3点に縮まる。Terminal-Bench 4.0は67％（K3は13％）。
+
+<figure>
+<div style="text-align:center">
+<svg width="680" height="360" viewBox="0 0 680 360" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif">
+<text x="340" y="28" font-size="17" font-weight="bold" text-anchor="middle">オープンとクローズドの差を一枚の図で</text>
+<text x="340" y="52" font-size="14" text-anchor="middle">Artificial Analysis 知能指数、2026年10月</text>
+<text x="195" y="86" font-size="14" text-anchor="end">Claude Opus 5.5</text><rect x="205" y="70" width="406" height="20" fill="#718096"/><text x="619" y="86" font-size="14">58</text>
+<text x="195" y="120" font-size="14" text-anchor="end">Claude Sonnet 5.5</text><rect x="205" y="104" width="392" height="20" fill="#718096"/><text x="605" y="120" font-size="14">56</text>
+<text x="195" y="154" font-size="14" text-anchor="end">Muse Wonder Full</text><rect x="205" y="138" width="392" height="20" fill="#718096"/><text x="605" y="154" font-size="14">56</text>
+<text x="195" y="188" font-size="14" font-weight="bold" text-anchor="end">Kimi K3.1 Pro</text><rect x="205" y="172" width="385" height="20" fill="#2b6cb0"/><text x="598" y="188" font-size="14" font-weight="bold">55</text>
+<text x="195" y="222" font-size="14" text-anchor="end">Claude Fable 5.1</text><rect x="205" y="206" width="371" height="20" fill="#718096"/><text x="584" y="222" font-size="14">53</text>
+<text x="195" y="256" font-size="14" text-anchor="end">GPT-6 Astra</text><rect x="205" y="240" width="371" height="20" fill="#718096"/><text x="584" y="256" font-size="14">53</text>
+<text x="195" y="290" font-size="14" text-anchor="end">Gemini 4 Argon</text><rect x="205" y="274" width="371" height="20" fill="#718096"/><text x="584" y="290" font-size="14">53</text>
+<text x="195" y="324" font-size="14" text-anchor="end">Kimi K3</text><rect x="205" y="308" width="308" height="20" fill="#a0aec0"/><text x="521" y="324" font-size="14">44</text>
+<text x="340" y="352" font-size="14" text-anchor="middle">K3.1 Proのウェイトは11月4日までに公開予定。それまではAPIのみ。</text>
+</svg>
+</div>
+<figcaption style="text-align:center">同じベースモデルで11点上昇。差は12点から3点に。</figcaption>
+</figure>
+
+Moonshot自身の表：SWE-Marathon首位（51.7％対46.3％）、科学タスク38.1％が弱点、幻覚率23.4％から8.3％に低下。
+
+発表文に普通ない一節。追加学習とともに悪用能力が伸び続けた。原因はコーパスと強化学習環境のサイバー関連データだ。Moonshotは「両学習段階からサイバー関連データを削除した」という。社内テストxdev-bench-hard：対策なし90.5％、公開版81.0％。初代K3は33.3％だ。「弱められた」のは未公開版に対してだけだ。
+
+<figure>
+<div style="text-align:center">
+<svg width="680" height="250" viewBox="0 0 680 250" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif">
+<text x="340" y="28" font-size="17" font-weight="bold" text-anchor="middle">あえて下げた——それでもK3をはるかに上回る</text>
+<text x="340" y="52" font-size="14" text-anchor="middle">xdev-bench-hard、解決した悪用タスクの割合（pass@3）</text>
+<text x="195" y="86" font-size="14" text-anchor="end">フィルターなしチェックポイント</text><rect x="205" y="70" width="362" height="20" fill="#718096"/><text x="575" y="86" font-size="14">90.5%</text>
+<text x="195" y="120" font-size="14" font-weight="bold" text-anchor="end">Kimi K3.1 Pro（公開版）</text><rect x="205" y="104" width="324" height="20" fill="#2b6cb0"/><text x="537" y="120" font-size="14" font-weight="bold">81.0%</text>
+<text x="195" y="154" font-size="14" text-anchor="end">Kimi K3</text><rect x="205" y="138" width="133" height="20" fill="#a0aec0"/><text x="346" y="154" font-size="14">33.3%</text>
+<text x="340" y="196" font-size="14" text-anchor="middle">Moonshotの社内テスト。いずれの数値も独立に検証されていない。</text>
+<text x="340" y="220" font-size="14" text-anchor="middle">学習データを削ることはフィルター追加より強い。フィルターは剥がせるが、学んでいない能力は戻らない。</text>
+</svg>
+</div>
+<figcaption style="text-align:center">弱めたのはフィルター追加ではなく学習データの削除だ。公開後、この違いが重要だ。</figcaption>
+</figure>
+
+重要なのは、オープンウェイトに取り消しがきかないからだ。公開されれば誰でもフィルターを剥がせる（Audn AIは予告済み）。だが、剥がしても学習しなかった能力は戻らない。「欠如による安全」は後付けとは違う。数値は未検証で、81％は依然手ごわい。
+
+経済面にもひねりがある。API価格はK3から3分の1下がり、入力2ドル、出力10ドル、高速版4ドル／20ドル。だがタスクあたり1.98ドルでほぼ不変。出力トークン14％増のためだ。
+
+「オープン」の意味にも注意。ウェイトは11月4日までに公開予定（ライセンス未定）、約1.5TB、64基以上のアクセラレータが必要だ。「ノートパソコンで動く」ではない。重装備の機関なら許可なしに配備できる。最も記憶すべきは、扉を開ける前にダイヤルを下げた判断だ。
+
+*議論：危険な能力のダイヤルを決めるべきは誰か——研究機関か、規制当局か、ウェイトを受け継ぐ社会か。「あらかじめ弱められた」ウェイトは、まだオープンか。*

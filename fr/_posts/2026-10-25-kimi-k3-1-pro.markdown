@@ -1,0 +1,64 @@
+---
+lng_pair: id_20261025_kimi-k3-1-pro
+title: "Kimi K3.1 Pro : à trois points de la frontière, volontairement émoussé avant sa sortie"
+author: OpenSI-Labs
+category: research
+tags: [Kimi, Moonshot AI, poids ouverts, codage agentique, mélange d'experts, sécurité de l'IA]
+date: 2026-10-25 05:00:00 -0700
+img: /assets/img/posts/2026-10-25-kimi-k3-1-pro.png
+meta_description: "Le Kimi K3.1 Pro de Moonshot obtient 55 points à l'Indice d'intelligence d'Artificial Analysis — à trois points de la frontière — avec la même base que K3, simplement entraînée beaucoup plus. Avant de promettre ses poids ouverts pour le 4 novembre, Moonshot a délibérément retiré ses données d'entraînement liées à la cyberattaque."
+---
+
+Vendredi, Moonshot AI a publié le modèle à poids ouverts le plus capable jamais promis — en admettant l'avoir délibérément affaibli.
+
+Kimi K3.1 Pro, premier modèle de la série K3.1, est une version post-entraînée de Kimi K3 (juillet). Même architecture, même taille : 2 800 milliards de paramètres en mélange d'experts, 104 milliards actifs par jeton, un million de jetons de contexte. Ce qui a changé, c'est l'après-pré-entraînement : un apprentissage par renforcement conjoint sur des centaines de domaines, avec beaucoup plus de calcul que pour K3. Le résultat suggère que les plus grands progrès actuels ne viendront plus d'une base plus grande, mais d'un entraînement plus poussé du modèle existant.
+
+Les preuves indépendantes sont frappantes. [Artificial Analysis](https://artificialanalysis.ai/articles/kimi-k3-1-pro-launch-benchmarks), qui soumet chaque grand modèle aux mêmes tests, attribue à K3.1 Pro 55 points à son Indice d'intelligence — quatrième au classement, derrière trois modèles fermés seulement : Claude Opus 5.5 (58), Claude Sonnet 5.5 (56) et Muse Wonder Full de Meta (56). K3 n'avait que 44 points. Une fois les poids publiés, ce sera le modèle ouvert le mieux noté de l'indice, et l'écart ouvert–fermé passera de 12 à 3 points. Sur Terminal-Bench 4.0, Artificial Analysis mesure 67 % — record, contre 13 % pour K3. GDPval-AA grimpe aussi de 312 points Elo à 1 846, troisième.
+
+<figure>
+<div style="text-align:center">
+<svg width="680" height="360" viewBox="0 0 680 360" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif">
+<text x="340" y="28" font-size="17" font-weight="bold" text-anchor="middle">L'écart ouvert–fermé en un graphique</text>
+<text x="340" y="52" font-size="14" text-anchor="middle">Indice d'intelligence d'Artificial Analysis, octobre 2026</text>
+<text x="195" y="86" font-size="14" text-anchor="end">Claude Opus 5.5</text><rect x="205" y="70" width="406" height="20" fill="#718096"/><text x="619" y="86" font-size="14">58</text>
+<text x="195" y="120" font-size="14" text-anchor="end">Claude Sonnet 5.5</text><rect x="205" y="104" width="392" height="20" fill="#718096"/><text x="605" y="120" font-size="14">56</text>
+<text x="195" y="154" font-size="14" text-anchor="end">Muse Wonder Full</text><rect x="205" y="138" width="392" height="20" fill="#718096"/><text x="605" y="154" font-size="14">56</text>
+<text x="195" y="188" font-size="14" font-weight="bold" text-anchor="end">Kimi K3.1 Pro</text><rect x="205" y="172" width="385" height="20" fill="#2b6cb0"/><text x="598" y="188" font-size="14" font-weight="bold">55</text>
+<text x="195" y="222" font-size="14" text-anchor="end">Claude Fable 5.1</text><rect x="205" y="206" width="371" height="20" fill="#718096"/><text x="584" y="222" font-size="14">53</text>
+<text x="195" y="256" font-size="14" text-anchor="end">GPT-6 Astra</text><rect x="205" y="240" width="371" height="20" fill="#718096"/><text x="584" y="256" font-size="14">53</text>
+<text x="195" y="290" font-size="14" text-anchor="end">Gemini 4 Argon</text><rect x="205" y="274" width="371" height="20" fill="#718096"/><text x="584" y="290" font-size="14">53</text>
+<text x="195" y="324" font-size="14" text-anchor="end">Kimi K3</text><rect x="205" y="308" width="308" height="20" fill="#a0aec0"/><text x="521" y="324" font-size="14">44</text>
+<text x="340" y="352" font-size="14" text-anchor="middle">Poids de K3.1 Pro attendus d'ici le 4 novembre ; jusque-là, API seulement.</text>
+</svg>
+</div>
+<figcaption style="text-align:center">Même base, onze points de plus. L'écart ouvert–fermé passe de 12 à 3 points.</figcaption>
+</figure>
+
+Le tableau de Moonshot raconte une histoire semblable avec un accent différent. Moonshot annonce 65,7 % sur Terminal-Bench 4.0, juste derrière les 66,4 % d'Opus 5.5 et devant les 58,2 % de GPT-6 Astra. Pas de contradiction avec les 67 % d'Artificial Analysis : protocoles différents, classements non comparables. Moonshot revendique la première place sur SWE-Marathon (51,7 % contre 46,3 %) et un record de 64,4 sur OfficeQA Pro v2 (documents financiers). Mais il avoue les points faibles : 38,1 % sur Terminal-Bench Science, contre 63,3 % et 68,1 % pour ses rivaux, et un retard sur BenchCAD. Sur son test de résistance à l'hallucination le plus difficile, le taux d'affirmations fausses passe de 23,4 % (K3) à 8,3 % — un test de résistance, pas un taux quotidien ; la mesure distincte d'Artificial Analysis passe de 53 % à 44 %.
+
+Vient ensuite le passage inhabituel dans un billet de lancement. À mesure que le post-entraînement prenait de l'ampleur, dit Moonshot, la capacité du modèle à trouver et exploiter des vulnérabilités ne cessait de progresser. Origine identifiée : du contenu cyber dans le corpus général et des tâches cyber dans ses environnements d'apprentissage par renforcement. Pour la publication, elle affirme avoir « identifié et retiré les données liées à la cyberattaque des deux étapes d'entraînement », en gardant les tâches de programmation générale nécessaires. Sur son test interne xdev-bench-hard — exploiter des vulnérabilités récemment divulguées dans des logiciels comme le noyau Linux et Node.js — un point de contrôle sans ces mesures résolvait 90,5 % des tâches ; le modèle publié en résout 81,0 %. Pour l'échelle : le K3 original n'atteignait que 33,3 %. Le modèle « affaibli » reste bien plus capable que son prédécesseur — plus faible seulement que la version non publiée.
+
+<figure>
+<div style="text-align:center">
+<svg width="680" height="250" viewBox="0 0 680 250" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif">
+<text x="340" y="28" font-size="17" font-weight="bold" text-anchor="middle">Volontairement atténué — mais toujours loin devant K3</text>
+<text x="340" y="52" font-size="14" text-anchor="middle">xdev-bench-hard, part des tâches d'exploitation résolues (pass@3)</text>
+<text x="195" y="86" font-size="14" text-anchor="end">Version sans filtre</text><rect x="205" y="70" width="362" height="20" fill="#718096"/><text x="575" y="86" font-size="14">90,5 %</text>
+<text x="195" y="120" font-size="14" font-weight="bold" text-anchor="end">Kimi K3.1 Pro (publié)</text><rect x="205" y="104" width="324" height="20" fill="#2b6cb0"/><text x="537" y="120" font-size="14" font-weight="bold">81,0 %</text>
+<text x="195" y="154" font-size="14" text-anchor="end">Kimi K3</text><rect x="205" y="138" width="133" height="20" fill="#a0aec0"/><text x="346" y="154" font-size="14">33,3 %</text>
+<text x="340" y="196" font-size="14" text-anchor="middle">Test interne de Moonshot ; aucun de ces chiffres n'a été vérifié indépendamment.</text>
+<text x="340" y="220" font-size="14" text-anchor="middle">Retirer des données d'entraînement vaut mieux qu'ajouter un filtre : un filtre se retire, une capacité jamais apprise ne se restaure pas.</text>
+</svg>
+</div>
+<figcaption style="text-align:center">Émoussé en retirant des données de l'entraînement lui-même — pas en ajoutant un filtre de refus. La distinction compte une fois les poids publics.</figcaption>
+</figure>
+
+Ce choix compte : les poids ouverts ne peuvent pas être rappelés. Une fois publics, n'importe qui peut retirer les filtres de sécurité — Audn AI a déjà annoncé vouloir le faire pour K3.1 Pro, comme pour GLM-5.3. Mais retirer un filtre ne restaure pas une capacité jamais apprise à l'entraînement. C'est la sécurité intégrée par l'absence, non ajoutée après coup — et pourquoi la politique affichée de Moonshot — « ne pas publier de poids ouverts qui étendraient la frontière absolue de la capacité cyber » — est applicable comme aucune politique d'usage ne pourra l'être. Mise en garde : aucun chiffre cyber n'a été vérifié indépendamment, et 81 % sur un banc d'exploitation reste redoutable. Volontairement émoussé ne veut pas dire inoffensif.
+
+L'économie réserve sa surprise. Les prix de l'API baissent d'un tiers par rapport à K3 : 2 dollars en entrée, 10 dollars en sortie, 0,20 dollar en cache, par million de jetons. Une variante Highspeed, deux à trois fois plus rapide, coûte 4/20 dollars. Mais Artificial Analysis constate un coût par tâche pratiquement inchangé, à 1,98 dollar — K3.1 Pro utilise 14 % de jetons de sortie en plus par tâche (55 000 contre 48 000). Des jetons moins chers ne font pas des résultats moins chers quand le modèle parle davantage. Essai gratuit, usage limité, sur Kimi.ai, les applis Kimi, Kimi Work et Kimi Code.
+
+Et un mot sur « ouvert » à cette échelle. Les poids — attendus d'ici le 4 novembre, licence non encore confirmée — pèseront environ 1,5 téraoctet et exigeront une grappe de 64 accélérateurs ou plus. Ouvert, ici, ne veut pas dire « tourne sur votre portable » : tout laboratoire, entreprise ou gouvernement disposant d'un matériel sérieux peut inspecter, modifier et déployer un modèle proche de la frontière sans la permission de Moonshot. C'est déjà un grand changement de ceux qui construisent à la frontière — et pourquoi l'affaiblissement délibéré, plus que les scores, est ce qu'il faut retenir.
+
+La vraie histoire n'est pas un modèle plus grand. C'est le même modèle, entraîné plus durement, qui gagne 11 points — et son créateur, voyant ce que cet entraînement lui avait aussi appris, qui tourne le bouton avant d'ouvrir la porte. Les laboratoires de pointe débattent depuis des années de l'ouverture de leurs modèles. Moonshot montre une troisième voie : ouvrir le modèle, mais décider d'avance lesquels de ses pouvoirs voyagent avec lui.
+
+*Discussion : si un laboratoire peut régler les capacités dangereuses d'un modèle avant sa publication, qui devrait régler le bouton — laboratoire, régulateur, ou public héritier des poids ? Et « ouvert » veut-il encore dire ouvert quand les poids arrivent pré-affaiblis ?*

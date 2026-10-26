@@ -1,0 +1,62 @@
+---
+lng_pair: id_20261025_kimi-k3-1-pro
+title: "距最前沿只差三分，发布前却先自断一刃：Kimi K3.1 Pro"
+author: OpenSI-Labs
+category: research
+tags: [Kimi, Moonshot AI, 开放权重, 智能体编程, 混合专家, AI 安全]
+date: 2026-10-25 05:00:00 -0700
+img: /assets/img/posts/2026-10-25-kimi-k3-1-pro.png
+meta_description: "Moonshot 的 Kimi K3.1 Pro 在 Artificial Analysis 智能指数上拿到 55 分，距最前沿只差三分——而它与 K3 用的是同一个底座，只是后训练做得更狠。在承诺 11 月 4 日前开放权重之前，Moonshot 主动删掉了它的网络攻击训练数据。"
+---
+
+周五，Moonshot AI 发布了迄今最强的开放权重模型，同时承认故意把它改弱了一点。
+
+Kimi K3.1 Pro 是 7 月 Kimi K3 的后训练升级版：架构不变——2.8 万亿参数混合专家，每 token 激活 1040 亿，100 万 token 上下文。变的是预训练之后：数百领域联合强化学习，后训练算力远超 K3。最大的进步可能不再来自更大的底座，而是把已有底座训练得更狠。
+
+独立证据亮眼。[Artificial Analysis](https://artificialanalysis.ai/articles/kimi-k3-1-pro-launch-benchmarks)同套测试：K3.1 Pro 智能指数 55 分，排第四，只落后于三个闭源模型（58、56、56）；K3 只有 44 分。开放与闭源差距从 12 分缩到 3 分。Terminal-Bench 4.0 上它拿到 67%，K3 只有 13%。
+
+<figure>
+<div style="text-align:center">
+<svg width="680" height="360" viewBox="0 0 680 360" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif">
+<text x="340" y="28" font-size="17" font-weight="bold" text-anchor="middle">开放与闭源的差距，一图看清</text>
+<text x="340" y="52" font-size="14" text-anchor="middle">Artificial Analysis 智能指数，2026 年 10 月</text>
+<text x="195" y="86" font-size="14" text-anchor="end">Claude Opus 5.5</text><rect x="205" y="70" width="406" height="20" fill="#718096"/><text x="619" y="86" font-size="14">58</text>
+<text x="195" y="120" font-size="14" text-anchor="end">Claude Sonnet 5.5</text><rect x="205" y="104" width="392" height="20" fill="#718096"/><text x="605" y="120" font-size="14">56</text>
+<text x="195" y="154" font-size="14" text-anchor="end">Muse Wonder Full</text><rect x="205" y="138" width="392" height="20" fill="#718096"/><text x="605" y="154" font-size="14">56</text>
+<text x="195" y="188" font-size="14" font-weight="bold" text-anchor="end">Kimi K3.1 Pro</text><rect x="205" y="172" width="385" height="20" fill="#2b6cb0"/><text x="598" y="188" font-size="14" font-weight="bold">55</text>
+<text x="195" y="222" font-size="14" text-anchor="end">Claude Fable 5.1</text><rect x="205" y="206" width="371" height="20" fill="#718096"/><text x="584" y="222" font-size="14">53</text>
+<text x="195" y="256" font-size="14" text-anchor="end">GPT-6 Astra</text><rect x="205" y="240" width="371" height="20" fill="#718096"/><text x="584" y="256" font-size="14">53</text>
+<text x="195" y="290" font-size="14" text-anchor="end">Gemini 4 Argon</text><rect x="205" y="274" width="371" height="20" fill="#718096"/><text x="584" y="290" font-size="14">53</text>
+<text x="195" y="324" font-size="14" text-anchor="end">Kimi K3</text><rect x="205" y="308" width="308" height="20" fill="#a0aec0"/><text x="521" y="324" font-size="14">44</text>
+<text x="340" y="352" font-size="14" text-anchor="middle">K3.1 Pro 权重 11 月 4 日前发布，在此之前仅可通过 API 使用。</text>
+</svg>
+</div>
+<figcaption style="text-align:center">同一底座，多训 11 分。权重发布后，开放与闭源差距从 12 分缩到 3 分。</figcaption>
+</figure>
+
+Moonshot 自家成绩单：Terminal-Bench 4.0 为 65.7%，略低于 Opus 5.5 的 66.4%，高于 GPT-6 Astra 的 58.2%。SWE-Marathon 领先（51.7% 对 46.3%）；短板：科学任务 38.1%。幻觉率从 23.4% 降到 8.3%（压力测试，非日常错误率）。
+
+罕见的一段：后训练规模扩大后，模型找漏洞、写利用代码的能力一直在变强。Moonshot 追溯到训练语料和强化学习环境里的网络安全内容，于是"从两个训练阶段都删除了网络安全相关数据"。内部测试 xdev-bench-hard：未过滤检查点 90.5%，发布版 81.0%；初代 K3 只有 33.3%。所谓"削弱"，只是弱于未发布版。
+
+<figure>
+<div style="text-align:center">
+<svg width="680" height="250" viewBox="0 0 680 250" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif">
+<text x="340" y="28" font-size="17" font-weight="bold" text-anchor="middle">主动调低——但仍远高于 K3</text>
+<text x="340" y="52" font-size="14" text-anchor="middle">xdev-bench-hard，解决的漏洞利用任务占比（pass@3）</text>
+<text x="195" y="86" font-size="14" text-anchor="end">未过滤检查点</text><rect x="205" y="70" width="362" height="20" fill="#718096"/><text x="575" y="86" font-size="14">90.5%</text>
+<text x="195" y="120" font-size="14" font-weight="bold" text-anchor="end">Kimi K3.1 Pro（发布版）</text><rect x="205" y="104" width="324" height="20" fill="#2b6cb0"/><text x="537" y="120" font-size="14" font-weight="bold">81.0%</text>
+<text x="195" y="154" font-size="14" text-anchor="end">Kimi K3</text><rect x="205" y="138" width="133" height="20" fill="#a0aec0"/><text x="346" y="154" font-size="14">33.3%</text>
+<text x="340" y="196" font-size="14" text-anchor="middle">Moonshot 内部测试，未经独立验证。</text>
+<text x="340" y="220" font-size="14" text-anchor="middle">删训练数据胜过加过滤器：过滤器可剥离，没学过的能力无法恢复。</text>
+</svg>
+</div>
+<figcaption style="text-align:center">削弱来自训练数据本身，而非外挂过滤器。权重公开后，这区别至关重要。</figcaption>
+</figure>
+
+关键在开放权重无法收回。权重公开后，任何人都能剥离安全过滤器——Audn AI 已宣布要这么干。但剥离过滤器恢复不了从未学过的能力：这是"内置缺失的安全"，而非外挂。但数字未经独立验证，81% 依然惊人。磨钝不等于无害。
+
+经济账也有转折：API 价比 K3 降三分之一（输入 2 美元、输出 10 美元/百万 token），高速版 4 美元/20 美元，快两到三倍。但每任务成本仍是 1.98 美元——模型每任务多用 14% 的输出 token。Token 便宜，任务未必便宜。
+
+"开放"在这个量级上另有含义：权重 11 月 4 日前发布（许可证未定），约 1.5 TB，需 64 台以上加速器集群。不是"笔记本能跑"，而是任何拥有重型硬件的机构都可不经许可检查、修改、部署近前沿模型。这仍改变了谁能站在前沿。
+
+*讨论：如果实验室能在发布前调高或调低危险能力，旋钮该由谁拧——实验室、监管者，还是继承权重的公众？当权重以"预先削弱"之姿到达时，"开放"还算开放吗？*
