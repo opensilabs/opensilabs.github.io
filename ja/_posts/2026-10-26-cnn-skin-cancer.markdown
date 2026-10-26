@@ -1,6 +1,6 @@
 ---
 lng_pair: id_20261026_cnn-skin-cancer
-title: "巨人は推測し、旧ネットワークは見た：10年前のCNNが皮膚がん診断で勝った理由"
+title: "最強のマルチモーダルモデルは推測し、CNNは見た：10年前のCNNが皮膚がん診断で勝った理由"
 author: OpenSI-Labs
 category: research
 tags: [医療AI, コンピュータビジョン, Inception v3, マルチモーダルLLM, 皮膚科, 評価]

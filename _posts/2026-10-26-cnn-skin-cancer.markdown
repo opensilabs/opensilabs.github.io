@@ -1,6 +1,6 @@
 ---
 lng_pair: id_20261026_cnn-skin-cancer
-title: "The Giants Guessed. The Old Network Looked."
+title: "The Strongest Multimodal Models Guessed. The CNN Looked: How a Decade-Old CNN Won at Skin-Cancer Diagnosis"
 author: OpenSI-Labs
 category: research
 tags: [medical AI, computer vision, Inception v3, multimodal LLMs, dermatology, evaluation]

@@ -1,6 +1,6 @@
 ---
 lng_pair: id_20261026_cnn-skin-cancer
-title: "巨人靠猜，老网络靠看：十年前的 CNN 如何赢下皮肤癌诊断"
+title: "最强大多模态模型靠猜，CNN靠看：十年前的CNN如何赢下皮肤癌诊断"
 author: OpenSI-Labs
 category: research
 tags: [医学 AI, 计算机视觉, Inception v3, 多模态大模型, 皮肤科, 评测]

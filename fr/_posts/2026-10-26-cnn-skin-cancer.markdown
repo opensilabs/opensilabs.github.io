@@ -1,6 +1,6 @@
 ---
 lng_pair: id_20261026_cnn-skin-cancer
-title: "Les géants ont deviné. Le vieux réseau a regardé."
+title: "Les modèles multimodaux les plus puissants ont deviné, le CNN a regardé : comment un CNN vieux de dix ans a gagné au diagnostic du cancer de la peau"
 author: OpenSI-Labs
 category: research
 tags: [IA médicale, vision par ordinateur, Inception v3, LLM multimodaux, dermatologie, évaluation]
