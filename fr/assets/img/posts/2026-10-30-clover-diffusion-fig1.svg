@@ -1,0 +1,57 @@
+<svg width="680" height="356" viewBox="0 0 680 356" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif">
+<rect x="10" y="10" width="660" height="336" rx="14" fill="#f7f9fc"/>
+<text x="340" y="48" font-size="20" font-weight="700" text-anchor="middle" fill="#111827">Deux façons d'écrire</text>
+<text x="40" y="90" font-size="16" font-weight="700" fill="#374151">Un jeton à la fois — la méthode de GPT et Claude</text>
+<rect x="40" y="104" width="56" height="38" rx="6" fill="#cbd5e1"/>
+<text x="68.0" y="129" font-size="15" font-weight="600" text-anchor="middle" fill="#111827">Le</text>
+<rect x="104" y="104" width="56" height="38" rx="6" fill="#cbd5e1"/>
+<text x="132.0" y="129" font-size="15" font-weight="600" text-anchor="middle" fill="#111827">chat</text>
+<rect x="168" y="104" width="56" height="38" rx="6" fill="#cbd5e1"/>
+<text x="196.0" y="129" font-size="15" font-weight="600" text-anchor="middle" fill="#111827">est</text>
+<rect x="232" y="104" width="56" height="38" rx="6" fill="#cbd5e1"/>
+<text x="260.0" y="129" font-size="15" font-weight="600" text-anchor="middle" fill="#111827">assis</text>
+<rect x="296" y="104" width="56" height="38" rx="6" fill="#cbd5e1"/>
+<text x="324.0" y="129" font-size="15" font-weight="600" text-anchor="middle" fill="#111827">sur</text>
+<rect x="360" y="104" width="56" height="38" rx="6" fill="#cbd5e1"/>
+<text x="388.0" y="129" font-size="15" font-weight="600" text-anchor="middle" fill="#111827">le</text>
+<rect x="424" y="104" width="56" height="38" rx="6" fill="#cbd5e1"/>
+<text x="452.0" y="129" font-size="15" font-weight="600" text-anchor="middle" fill="#111827">tapis</text>
+<text x="492" y="132" font-size="22" font-weight="700" text-anchor="middle" fill="#6b7280">→</text>
+<rect x="514" y="104" width="96" height="38" rx="6" fill="#ffffff" stroke="#0e7c86" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="562" y="129" font-size="14" font-weight="700" text-anchor="middle" fill="#0e7c86">ensuite ?</text>
+<text x="40" y="172" font-size="14" fill="#374151">chaque jeton est figé dès qu'il est écrit — pas de retour possible</text>
+<text x="40" y="212" font-size="16" font-weight="700" fill="#374151">Un bloc de 32 cases vides — la méthode de Clover</text>
+<rect x="55" y="226" width="30" height="30" rx="5" fill="#0e7c86"/>
+<rect x="91" y="226" width="30" height="30" rx="5" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+<rect x="128" y="226" width="30" height="30" rx="5" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+<rect x="164" y="226" width="30" height="30" rx="5" fill="#0e7c86"/>
+<rect x="200" y="226" width="30" height="30" rx="5" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+<rect x="237" y="226" width="30" height="30" rx="5" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+<rect x="273" y="226" width="30" height="30" rx="5" fill="#0e7c86"/>
+<rect x="309" y="226" width="30" height="30" rx="5" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+<rect x="346" y="226" width="30" height="30" rx="5" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+<rect x="382" y="226" width="30" height="30" rx="5" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+<rect x="418" y="226" width="30" height="30" rx="5" fill="#0e7c86"/>
+<rect x="455" y="226" width="30" height="30" rx="5" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+<rect x="491" y="226" width="30" height="30" rx="5" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+<rect x="527" y="226" width="30" height="30" rx="5" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+<rect x="564" y="226" width="30" height="30" rx="5" fill="#0e7c86"/>
+<rect x="600" y="226" width="30" height="30" rx="5" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+<rect x="55" y="264" width="30" height="30" rx="5" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+<rect x="91" y="264" width="30" height="30" rx="5" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+<rect x="128" y="264" width="30" height="30" rx="5" fill="#0e7c86"/>
+<rect x="164" y="264" width="30" height="30" rx="5" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+<rect x="200" y="264" width="30" height="30" rx="5" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+<rect x="237" y="264" width="30" height="30" rx="5" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+<rect x="273" y="264" width="30" height="30" rx="5" fill="#0e7c86"/>
+<rect x="309" y="264" width="30" height="30" rx="5" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+<rect x="346" y="264" width="30" height="30" rx="5" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+<rect x="382" y="264" width="30" height="30" rx="5" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+<rect x="418" y="264" width="30" height="30" rx="5" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+<rect x="455" y="264" width="30" height="30" rx="5" fill="#0e7c86"/>
+<rect x="491" y="264" width="30" height="30" rx="5" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+<rect x="527" y="264" width="30" height="30" rx="5" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+<rect x="564" y="264" width="30" height="30" rx="5" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+<rect x="600" y="264" width="30" height="30" rx="5" fill="#0e7c86"/>
+<text x="40" y="326" font-size="14" fill="#374151">les cases les plus sûres sont remplies d'abord, plusieurs à la fois</text>
+</svg>

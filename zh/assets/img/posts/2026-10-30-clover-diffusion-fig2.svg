@@ -1,0 +1,105 @@
+<svg width="680" height="380" viewBox="0 0 680 380" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif">
+<rect x="10" y="10" width="660" height="360" rx="14" fill="#f7f9fc"/>
+<text x="340" y="48" font-size="20" font-weight="700" text-anchor="middle" fill="#111827">一块的内部：分几轮填满</text>
+<text x="40" y="86" font-size="15" font-weight="700" fill="#374151">第 1 轮——只有少数位置有把握</text>
+<rect x="22" y="96" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="42" y="96" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="62" y="96" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="82" y="96" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="102" y="96" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="122" y="96" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="142" y="96" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="162" y="96" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="182" y="96" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="202" y="96" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="222" y="96" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="242" y="96" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="262" y="96" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="282" y="96" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="302" y="96" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="322" y="96" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="342" y="96" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="362" y="96" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="382" y="96" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="402" y="96" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="422" y="96" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="442" y="96" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="462" y="96" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="482" y="96" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="502" y="96" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="522" y="96" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="542" y="96" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="562" y="96" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="582" y="96" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="602" y="96" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="622" y="96" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="642" y="96" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="40" y="154" font-size="15" font-weight="700" fill="#374151">第 2 轮——邻居定下来，更多位置变明确</text>
+<rect x="22" y="164" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="42" y="164" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="62" y="164" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="82" y="164" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="102" y="164" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="122" y="164" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="142" y="164" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="162" y="164" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="182" y="164" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="202" y="164" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="222" y="164" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="242" y="164" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="262" y="164" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="282" y="164" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="302" y="164" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="322" y="164" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="342" y="164" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="362" y="164" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="382" y="164" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="402" y="164" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="422" y="164" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="442" y="164" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="462" y="164" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="482" y="164" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="502" y="164" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="522" y="164" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="542" y="164" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="562" y="164" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="582" y="164" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="602" y="164" width="16" height="24" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<rect x="622" y="164" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="642" y="164" width="16" height="24" rx="3" fill="#0e7c86"/>
+<text x="40" y="222" font-size="15" font-weight="700" fill="#374151">第 3 轮——整块填满</text>
+<rect x="22" y="232" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="42" y="232" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="62" y="232" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="82" y="232" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="102" y="232" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="122" y="232" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="142" y="232" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="162" y="232" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="182" y="232" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="202" y="232" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="222" y="232" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="242" y="232" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="262" y="232" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="282" y="232" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="302" y="232" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="322" y="232" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="342" y="232" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="362" y="232" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="382" y="232" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="402" y="232" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="422" y="232" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="442" y="232" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="462" y="232" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="482" y="232" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="502" y="232" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="522" y="232" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="542" y="232" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="562" y="232" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="582" y="232" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="602" y="232" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="622" y="232" width="16" height="24" rx="3" fill="#0e7c86"/>
+<rect x="642" y="232" width="16" height="24" rx="3" fill="#0e7c86"/>
+<text x="40" y="292" font-size="14" fill="#374151">填入规则：置信度超过 0.95 才填；一个都不过线，就填最有把握的那一个</text>
+<text x="40" y="330" font-size="15" font-weight="700" fill="#1e3a5f">填满的块成为下一块的固定前缀</text>
+</svg>
