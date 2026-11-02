@@ -1,0 +1,24 @@
+<svg width="1000" height="330" viewBox="0 0 1000 330" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, 'PingFang SC', 'Hiragino Sans', 'Noto Sans CJK SC', sans-serif">
+<text x="500" y="36" text-anchor="middle" font-size="20" font-weight="bold" fill="#16283f">The exam: practise on 2022–2023, freeze, then one run on a sealed year</text>
+<rect x="15" y="58" width="300" height="186" rx="10" fill="#e8f0fa" stroke="#2f5d8a" stroke-width="2"/>
+<text x="165" y="92" text-anchor="middle" font-size="20" font-weight="bold" fill="#16283f">2022–2023 — RESEARCH</text>
+<text x="165" y="128" text-anchor="middle" font-size="16" fill="#22303f">Write code, build features,</text>
+<text x="165" y="156" text-anchor="middle" font-size="16" fill="#22303f">score 3,042 stocks daily</text>
+<text x="165" y="184" text-anchor="middle" font-size="16" fill="#22303f">At most 5 candidate strategies</text>
+<text x="165" y="212" text-anchor="middle" font-size="16" fill="#22303f">Feedback: aggregates only</text>
+<rect x="350" y="58" width="300" height="186" rx="10" fill="#fdf3e0" stroke="#9a6a14" stroke-width="2"/>
+<text x="500" y="92" text-anchor="middle" font-size="20" font-weight="bold" fill="#16283f">FREEZE</text>
+<text x="500" y="128" text-anchor="middle" font-size="16" fill="#22303f">One strategy is chosen</text>
+<text x="500" y="156" text-anchor="middle" font-size="16" fill="#22303f">Code and environment locked</text>
+<text x="500" y="184" text-anchor="middle" font-size="16" fill="#22303f">Nothing can be changed</text>
+<rect x="685" y="58" width="300" height="186" rx="10" fill="#e9f6ec" stroke="#2e7d3f" stroke-width="2"/>
+<text x="835" y="92" text-anchor="middle" font-size="20" font-weight="bold" fill="#16283f">2024 — SEALED</text>
+<text x="835" y="128" text-anchor="middle" font-size="16" fill="#22303f">Run exactly once, no feedback</text>
+<text x="835" y="156" text-anchor="middle" font-size="16" fill="#22303f">Top-75 stocks, equal weights</text>
+<text x="835" y="184" text-anchor="middle" font-size="16" fill="#22303f">100-share lots; costs and</text>
+<text x="835" y="212" text-anchor="middle" font-size="16" fill="#22303f">market impact charged</text>
+<polygon points="322,138 344,151 322,164" fill="#44586e"/>
+<polygon points="657,138 679,151 657,164" fill="#44586e"/>
+<rect x="170" y="268" width="660" height="44" rx="22" fill="#16283f"/>
+<text x="500" y="297" text-anchor="middle" font-size="17" font-weight="bold" fill="#ffffff">Result: 0 of 9 models beat the equal-weight market (+17.1%)</text>
+</svg>

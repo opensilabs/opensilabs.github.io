@@ -1,0 +1,24 @@
+<svg width="1000" height="330" viewBox="0 0 1000 330" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, 'PingFang SC', 'Hiragino Sans', 'Noto Sans CJK SC', sans-serif">
+<text x="500" y="36" text-anchor="middle" font-size="20" font-weight="bold" fill="#16283f">試験の仕組み：2022–2023年で練習し、凍結、封印された2024年を一度だけ実行</text>
+<rect x="15" y="58" width="300" height="186" rx="10" fill="#e8f0fa" stroke="#2f5d8a" stroke-width="2"/>
+<text x="165" y="92" text-anchor="middle" font-size="20" font-weight="bold" fill="#16283f">2022–2023年・研究期間</text>
+<text x="165" y="128" text-anchor="middle" font-size="16" fill="#22303f">コードを書き、特徴量を構築</text>
+<text x="165" y="156" text-anchor="middle" font-size="16" fill="#22303f">3042銘柄を毎日スコア付け</text>
+<text x="165" y="184" text-anchor="middle" font-size="16" fill="#22303f">候補戦略は最大5つまで</text>
+<text x="165" y="212" text-anchor="middle" font-size="16" fill="#22303f">フィードバックは集計値のみ</text>
+<rect x="350" y="58" width="300" height="186" rx="10" fill="#fdf3e0" stroke="#9a6a14" stroke-width="2"/>
+<text x="500" y="92" text-anchor="middle" font-size="20" font-weight="bold" fill="#16283f">凍結</text>
+<text x="500" y="128" text-anchor="middle" font-size="16" fill="#22303f">戦略を1つに確定</text>
+<text x="500" y="156" text-anchor="middle" font-size="16" fill="#22303f">コードと環境をロック</text>
+<text x="500" y="184" text-anchor="middle" font-size="16" fill="#22303f">以後、変更は不可</text>
+<rect x="685" y="58" width="300" height="186" rx="10" fill="#e9f6ec" stroke="#2e7d3f" stroke-width="2"/>
+<text x="835" y="92" text-anchor="middle" font-size="20" font-weight="bold" fill="#16283f">2024年・封印</text>
+<text x="835" y="128" text-anchor="middle" font-size="16" fill="#22303f">実行は一度だけ、結果は戻らない</text>
+<text x="835" y="156" text-anchor="middle" font-size="16" fill="#22303f">上位75銘柄を均等に保有</text>
+<text x="835" y="184" text-anchor="middle" font-size="16" fill="#22303f">100株単位で売買</text>
+<text x="835" y="212" text-anchor="middle" font-size="16" fill="#22303f">取引コストと市場インパクトを課す</text>
+<polygon points="322,138 344,151 322,164" fill="#44586e"/>
+<polygon points="657,138 679,151 657,164" fill="#44586e"/>
+<rect x="170" y="268" width="660" height="44" rx="22" fill="#16283f"/>
+<text x="500" y="297" text-anchor="middle" font-size="17" font-weight="bold" fill="#ffffff">結果：9モデル中0モデルが均等加重市場（+17.1%）に勝利</text>
+</svg>
