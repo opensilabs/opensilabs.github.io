@@ -43,7 +43,7 @@ L'année scellée n'a pas été tendre. Elle s'est ouverte sur un krach des peti
 Le printemps a apporté une réparation partielle, puis une longue glissade pendant tout l'été. Fin septembre, le CSI All Share était encore sous son niveau de début d'année. Puis, le 24 septembre, une série d'annonces de politique économique a déclenché l'un des rallyes les plus violents de l'histoire des actions A : de la clôture du 23 septembre à la fin de l'année, l'indice a bondi de 27,1 %, terminant 2024 à +8,2 %. La référence équipondérée, après un parcours plus rude, a fini à 1,170.
 
 <figure>
-<img src="/fr/assets/img/posts/2026-10-31-quant-arena-market.png" alt="Indice CSI All Share en 2024 : chandeliers quotidiens, hebdomadaires et mensuels">
+<img src="/assets/img/posts/2026-10-31-quant-arena-market-fr.png" alt="Indice CSI All Share en 2024 : chandeliers quotidiens, hebdomadaires et mensuels">
 <figcaption>Figure 2 — L'indice CSI All Share (000985), pondéré par la capitalisation, en 2024 : chandeliers quotidiens, hebdomadaires et mensuels, et performance cumulée de l'année (données réelles, source : historique de cotations Tencent). Convention chinoise : le rouge monte, le vert baisse. Cet indice a gagné 8,2 % en 2024 — une « moyenne du marché » différente de la référence équipondérée de l'article scientifique, à +17,1 %.</figcaption>
 </figure>
 
@@ -58,7 +58,7 @@ Aucune meilleure exécution n'a battu les +17,1 %. Le meilleur score total est r
 Sur l'ensemble des 38 configurations, 13 seulement ont gagné de l'argent. Une seule a battu le marché : GPT-6 Sol en effort moyen, à +18,4 %. Mais regardez le prix de cette victoire : sa baisse maximale a atteint −35,9 %. Au pire moment, un yuan placé dans ce compte valait environ 64 centimes avant de remonter. Battre le marché de 1,3 point après avoir traversé un trou de 36 %, c'est un échange que la plupart des investisseurs refuseraient.
 
 <figure>
-<img src="/fr/assets/img/posts/2026-10-31-quant-arena-results.png" alt="Diagramme en barres des rendements de la meilleure exécution de chaque modèle en 2024 scellée, face au marché équipondéré">
+<img src="/assets/img/posts/2026-10-31-quant-arena-results-fr.png" alt="Diagramme en barres des rendements de la meilleure exécution de chaque modèle en 2024 scellée, face au marché équipondéré">
 <figcaption>Figure 3 — Chaque barre est la meilleure exécution (au score) de chaque modèle sur l'année scellée 2024, en rendement annualisé. La barre dorée, GPT-6 Sol en effort moyen, est la seule au-dessus de la ligne du marché — au prix d'une baisse maximale de 35,9 % en cours de route. Les rendements des modèles sont nets de coûts ; la ligne du marché équipondéré (+17,1 %) est brute, avant coûts.</figcaption>
 </figure>
 
