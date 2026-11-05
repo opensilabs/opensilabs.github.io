@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="460" viewBox="0 0 800 460" font-family="sans-serif">
+<rect width="800" height="460" fill="#f4f7fa"/>
+<text x="400" y="42" font-size="20" font-weight="bold" text-anchor="middle" fill="#10243e">AutoDNA: prompt &#8594; agents &#8594; instruments &#8594; results</text>
+<rect x="250" y="66" width="300" height="66" rx="12" fill="#10243e"/>
+<text x="400" y="94" font-size="17" font-weight="bold" text-anchor="middle" fill="#ffffff">ONE PROMPT</text>
+<text x="400" y="118" font-size="14" text-anchor="middle" fill="#cfe0f0">a goal in plain language</text>
+<line x1="400" y1="132" x2="400" y2="168" stroke="#10243e" stroke-width="4"/>
+<polygon points="392,160 408,160 400,174" fill="#10243e"/>
+<rect x="26" y="176" width="100" height="80" rx="10" fill="#0e7c7b"/>
+<text x="76" y="222" font-size="15" font-weight="bold" text-anchor="middle" fill="#ffffff">Planner</text>
+<rect x="134" y="176" width="100" height="80" rx="10" fill="#0e7c7b"/>
+<text x="184" y="222" font-size="15" font-weight="bold" text-anchor="middle" fill="#ffffff">Literature</text>
+<rect x="242" y="176" width="100" height="80" rx="10" fill="#0e7c7b"/>
+<text x="292" y="222" font-size="15" font-weight="bold" text-anchor="middle" fill="#ffffff">Protocol</text>
+<rect x="350" y="176" width="100" height="80" rx="10" fill="#0e7c7b"/>
+<text x="400" y="222" font-size="15" font-weight="bold" text-anchor="middle" fill="#ffffff">Reagent</text>
+<rect x="458" y="176" width="100" height="80" rx="10" fill="#0e7c7b"/>
+<text x="508" y="222" font-size="15" font-weight="bold" text-anchor="middle" fill="#ffffff">Code</text>
+<rect x="566" y="176" width="100" height="80" rx="10" fill="#0e7c7b"/>
+<text x="616" y="222" font-size="15" font-weight="bold" text-anchor="middle" fill="#ffffff">Hardware</text>
+<rect x="674" y="176" width="100" height="80" rx="10" fill="#0e7c7b"/>
+<text x="724" y="222" font-size="15" font-weight="bold" text-anchor="middle" fill="#ffffff">Hypothesis</text>
+<line x1="400" y1="256" x2="400" y2="292" stroke="#10243e" stroke-width="4"/>
+<polygon points="392,284 408,284 400,298" fill="#10243e"/>
+<rect x="150" y="300" width="500" height="66" rx="12" fill="#f0a13a"/>
+<text x="400" y="328" font-size="17" font-weight="bold" text-anchor="middle" fill="#10243e">20+ INSTRUMENT TYPES</text>
+<text x="400" y="352" font-size="14" text-anchor="middle" fill="#10243e">robot arms · pipettes · sequencers · thermal cyclers</text>
+<path d="M 650 333 L 742 333 L 742 216 L 758 216" fill="none" stroke="#f0a13a" stroke-width="4"/>
+<polygon points="748,208 766,216 748,224" fill="#f0a13a"/>
+<text x="400" y="425" font-size="16" text-anchor="middle" fill="#10243e">Results feed back &#8212; the procedure is revised and run again</text>
+</svg>
