@@ -1,0 +1,77 @@
+---
+layout: post
+lng_pair: id_20261114_first1000days
+title: "How Much Talk Does a Baby Need? A Small Model Raised on One Child's First 1,000 Days Learned to Talk at That Child's Pace"
+author: OpenSI-Labs
+category: Learning
+tags: [language learning, child development, Princeton, Science, speech, babies]
+date: 2026-11-14 06:00:00 -0800
+img: /assets/img/posts/2026-11-14-first-1000-days.png
+---
+
+## Why do babies learn at such different speeds?
+
+Some babies hear talk for much of the day. Others hear far less. Children also learn at very different speeds: one says many words early, another takes months longer, even in a home full of talk.
+
+That raises a question that is hard to test in real life. How much of the difference comes from what a child hears, and how much comes from something inside the child? You cannot raise the same baby twice, once with more talk and once with less, to see what changes.
+
+A team at Princeton University found another way to ask it. Instead of changing a child's life, they rebuilt that life for a computer model, and changed the rebuilt version.
+
+## One model for one child
+
+Fifteen families in the United States recorded 12 to 14 hours a day across each child's first 1,000 days, about 1.2 million hours of audio in total. The team, led by Hadas Raviv with senior author Uri Hasson, alongside Casey Lew-Williams and Liat Hasenfratz, completed the modelling for 8 children, with a median of 960 recording days each, roughly 1,900 to 6,600 hours of audio and 6 to 27 million transcribed words per child.
+
+For each child they built a separate model. It started from random weights, with no built-in knowledge of language. It was not trained on the internet, and it is not a system like ChatGPT. It was fed only that one child's recorded speech, day by day, in the order the child heard it, and nothing else.
+
+Each "night," the model also used replay — going over the day's sounds again. The authors discuss replay in relation to sleep consolidation, the idea that sleep helps settle what was learned during the day. As explained below, they treat that link as an idea to test, not as a result.
+
+## Sounds first, then words, each at its own pace
+
+The models picked up sounds first. A phoneme is the smallest unit of sound that changes meaning, as in "ba" versus "pa." On average, each model had picked up phoneme-like units for 37.5 of the 39 English phonemes by about 12 to 15 months, on a timetable much like a child's. The focal child's model had mapped 38 of 39 by 24 months.
+
+Words came next, and here the children differed a lot. The measure was the CDI, a standard checklist that parents fill in for the words their child knows. The real children reached 50% of that checklist at very different ages, between about 12 and 22 months. Their models, raised only on what each child had heard, followed a similar spread.
+
+That match matters. A model that starts knowing nothing about language, and hears only what one child heard, can still follow that child's broad timetable. It did not need built-in knowledge of words to get there.
+
+## How much talk, and how much going over it again
+
+The team then changed one thing at a time in the model. Those changes are causal inside the model: change the input, and the result changes for that reason. About real children, this is inference from a model, not an intervention trial.
+
+The amount result is stark. With only 10% of the daily data, about 1 hour a day, the model learned zero CDI words by 24 months. At 30%, about 2.6 hours a day, it learned only 58 of 649 words, about 9%. At 70%, it reached about 90% of the vocabulary it reached with the full data. Looking beyond the checklist, half the daily data gave only about 16% of the word forms reached with the full amount, about 8 hours a day.
+
+<figure>
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title fig-desc" style="max-width:100%;height:auto;background:#ffffff;">
+<title id="fig-title">Words learned by 24 months falls sharply with less daily input</title>
+<desc id="fig-desc">Bar chart with three bars: about 10 percent of the day, about 1 hour, gives 0 words; about 30 percent, about 2.6 hours, gives 58 of 649 words, about 9 percent; 70 percent gives about 90 percent of the full-data vocabulary.</desc>
+<text id="fig-title-text" x="320" y="32" text-anchor="middle" font-size="19" font-weight="bold" fill="#222222">Words learned by 24 months, by daily input</text>
+<line x1="90" y1="290" x2="590" y2="290" stroke="#333333" stroke-width="2"/>
+<rect x="140" y="290" width="90" height="0" fill="#b0b0b0"/>
+<rect x="275" y="272" width="90" height="18" fill="#5b8db8"/>
+<rect x="410" y="110" width="90" height="180" fill="#2f6f4e"/>
+<text x="185" y="270" text-anchor="middle" font-size="16" font-weight="bold" fill="#222222">0 words</text>
+<text x="320" y="252" text-anchor="middle" font-size="16" font-weight="bold" fill="#222222">58 of 649</text>
+<text x="320" y="268" text-anchor="middle" font-size="14" fill="#222222">about 9%</text>
+<text x="455" y="90" text-anchor="middle" font-size="16" font-weight="bold" fill="#222222">about 90%</text>
+<text x="455" y="106" text-anchor="middle" font-size="14" fill="#222222">of full vocabulary</text>
+<text x="185" y="314" text-anchor="middle" font-size="15" fill="#222222">~10% of the day</text>
+<text x="185" y="334" text-anchor="middle" font-size="14" fill="#222222">~1 hour</text>
+<text x="320" y="314" text-anchor="middle" font-size="15" fill="#222222">~30% of the day</text>
+<text x="320" y="334" text-anchor="middle" font-size="14" fill="#222222">~2.6 hours</text>
+<text x="455" y="314" text-anchor="middle" font-size="15" fill="#222222">70% of the day</text>
+</svg>
+<figcaption>Words learned by 24 months in the model as daily input was reduced. The bars are drawn from the paper's model results — a schematic rendering of the reported numbers, with bar heights proportional to 0, about 9%, and about 90% of the full-data vocabulary.</figcaption>
+</figure>
+
+Replay gave an equally stark result. If the model heard each day's input only once, or 1 to 5 times, it learned no words by 24 months. About 25 to 30 replays of each day's input were enough, with little gain beyond that. The authors are explicit on this point: the link between replay and sleep consolidation in a real child is a hypothesis rather than a finding.
+
+Pace gave a different kind of result. When the team varied only the household input, keeping the model's internal settings fixed, the age at which the model reached half the CDI checklist ranged only from 16 to 18 months. Input quantity alone could not explain the real 12-to-22-month spread. When they changed three internal settings — the learning-rate schedule, the error-accumulation window, and the amount of replay — the model reproduced the full 12-to-22-month spread. In the model, children differ in pace not mainly because some hear more, but because the learning process itself is set differently.
+
+## What this does and does not show
+
+The limits are substantial. The model learned from clean, resynthesised speech made by text-to-speech, so the melody of real voices, who was speaking, and shifts in register were stripped out. Its architecture is suggestive for thinking about cognition, not brain-like: it is a transformer trained with backpropagation. It had no eyes, no social interaction, and no input from other senses. It learned sounds and word forms only, not grammar or meaning in use. The work covers only 8 children, all in English-speaking homes in the United States, and the recordings are not public, for privacy.
+
+Within those limits, the result still changes how to think about talking to babies. In the model, very little daily talk was not just slower; at about 1 hour a day, word learning on the checklist did not start by 24 months, and going over the day's input again was required for any words to be learned. At the same time, a child who learns more slowly is not, on this evidence, simply a child who heard less. Amount mattered for whether words appeared. Settings inside the learner mattered for how fast they appeared.
+
+## References
+
+Raviv, H., et al. (senior author: Hasson, U.; with Lew-Williams, C., & Hasenfratz, L.) "The first 1000 days: Modeling language learning from individual children's everyday speech." Science (5 November 2026). DOI: [10.1126/science.aeh9311](https://doi.org/10.1126/science.aeh9311)

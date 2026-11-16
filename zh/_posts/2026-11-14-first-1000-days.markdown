@@ -1,0 +1,56 @@
+---
+layout: post
+lng_pair: id_20261114_first1000days
+title: "把一个孩子的头三年，喂给一个小模型"
+author: OpenSI-Labs
+category: Learning
+tags: [语言学习, 儿童发展, 普林斯顿, Science, 语音, 婴儿]
+date: 2026-11-14 06:00:00 -0800
+img: /assets/img/posts/2026-11-14-first-1000-days.png
+---
+
+## 听得多，就学得快吗？
+
+有的婴儿一天听很多话，有的听得少得多；孩子学词的速度也差很多。是听得多少在起作用，还是孩子本身不同？光看日常观察，分不开。
+
+## 每个孩子，单独养一个模型
+
+普林斯顿团队录了15个美国家庭：每个孩子出生后头1000天，每天录12–14小时，总计约120万小时。最后完成建模的是8个孩子，每人中位960个录音日，约1900–6600小时音频、600万–2700万个转写词。每个孩子单独训一个模型，从随机权重开始，没有任何内置语言知识，只喂这个孩子录下的声音，按听到的顺序逐日喂入。每天“夜里”回放近期输入——回放，就是把白天听到的声音再过一遍。
+
+<figure>
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="360" viewBox="0 0 620 360" role="img">
+<text x="310" y="28" text-anchor="middle" font-size="18" font-weight="bold">每日输入量与24个月时学到的词汇</text>
+<text x="36" y="70" font-size="14">24个月时学到的词汇</text>
+<line x1="80" y1="60" x2="80" y2="280" stroke="#333" stroke-width="2"/>
+<line x1="80" y1="280" x2="580" y2="280" stroke="#333" stroke-width="2"/>
+<rect x="130" y="280" width="90" height="0" fill="#888"/>
+<text x="175" y="262" text-anchor="middle" font-size="14">0个词</text>
+<text x="175" y="306" text-anchor="middle" font-size="14">约10%</text>
+<text x="175" y="328" text-anchor="middle" font-size="14">约1小时</text>
+<rect x="285" y="262" width="90" height="18" fill="#5b8db8"/>
+<text x="330" y="244" text-anchor="middle" font-size="14">649个词中的58个</text>
+<text x="330" y="306" text-anchor="middle" font-size="14">约30%</text>
+<text x="330" y="328" text-anchor="middle" font-size="14">约2.6小时</text>
+<rect x="440" y="100" width="90" height="180" fill="#2e6b30"/>
+<text x="485" y="82" text-anchor="middle" font-size="14">约全量词汇的90%</text>
+<text x="485" y="306" text-anchor="middle" font-size="14">70%</text>
+<text x="330" y="352" text-anchor="middle" font-size="14">每日输入量</text>
+</svg>
+<figcaption>图：每日输入量不同，模型到24个月学到的词汇差很多。柱子是按论文报告的模型结果绘制的示意呈现。</figcaption>
+</figure>
+
+## 先学听音，再按自己的步子学词
+
+音位是能改变词义的最小声音单位，比如“ba”和“pa”的区别。每个模型都在约12–15个月时，平均掌握了39个英语音位中的37.5个；其中一个重点孩子的模型，到24个月掌握了38个。CDI是家长填写的标准词汇清单，记录孩子会哪些词。孩子们学到清单一半的年龄，从约12个月到22个月不等。
+
+## 两个结果很硬
+
+先看输入量。只给每日数据的10%，约每天1小时，模型到24个月学到的CDI词汇为零；给30%，约每天2.6小时，只有649个词中的58个，约9%；给70%，约为全量词汇的90%。在开放词汇上，每天给一半数据，只学到全量（约每天8小时）词形的约16%。再看回放。当天的输入只听1遍，或听1–5遍，模型到24个月学不到任何词；每天回放约25–30遍就够了，再多收益很小。速度差异也一样：内部设置固定、只改输入量，结果只在16–18个月，解释不了12–22个月的跨度；改动学习率安排、误差累积窗口、回放量三个内部设置，才复现出完整跨度。这些消融在模型内部是因果的；放到真实孩子身上，只是基于模型的推断，不是干预试验。作者明确说，回放和睡眠巩固的联系是假设，不是发现。
+
+## 能说什么，不能说什么
+
+模型听的是干净的重新合成语音，真实声音里的语调、身份和语体都被剥掉了。它用的是Transformer和反向传播，在认知上有启发，但不是脑的复制品。它没有眼睛，没有社交互动，也没有多模态输入，只覆盖语音和词形，不涉及语法和语境中的意义。样本也小：只有8个孩子，全部来自说英语的美国家庭；录音因隐私不公开。对家里有婴儿的人，启示很朴素：每天实实在在多跟孩子说话。回放多少遍对应多少睡眠，还没有证据，别当成育儿指标。
+
+## 参考文献
+
+Raviv, H., et al. (senior author: Hasson, U.; with Lew-Williams, C., & Hasenfratz, L.) "The first 1000 days: Modeling language learning from individual children's everyday speech." Science (5 November 2026). DOI: [10.1126/science.aeh9311](https://doi.org/10.1126/science.aeh9311)

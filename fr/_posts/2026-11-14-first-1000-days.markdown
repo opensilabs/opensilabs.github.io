@@ -1,0 +1,65 @@
+---
+layout: post
+lng_pair: id_20261114_first1000days
+title: "De combien de paroles un bébé a-t-il besoin ? Un petit modèle nourri des 1 000 premiers jours d'un seul enfant a appris à parler à son rythme"
+author: OpenSI-Labs
+category: Learning
+tags: [apprentissage du langage, développement de l'enfant, Princeton, Science, parole, bébés]
+date: 2026-11-14 06:00:00 -0800
+img: /assets/img/posts/2026-11-14-first-1000-days.png
+---
+
+## Pourquoi certains bébés parlent-ils plus tôt que d'autres ?
+
+Un bébé entend des milliers de mots par jour, un autre beaucoup moins. L'un dit ses premiers mots tôt, l'autre prend son temps. Qu'est-ce qui fait la différence : ce que l'enfant entend, ou quelque chose en lui ?
+
+Jusqu'ici, on ne pouvait pas séparer les deux. On ne peut pas refaire l'enfance d'un bébé en changeant un seul élément. Une équipe de Princeton, menée par Hadas Raviv sous la direction d'Uri Hasson, avec Casey Lew-Williams et Liat Hasenfratz, a trouvé un détour : construire, pour chaque enfant, un élève artificiel qui n'entend que ce que cet enfant a entendu, puis regarder s'il apprend au même rythme.
+
+## Un modèle par enfant, élevé avec ses seuls enregistrements
+
+Quinze familles américaines ont enregistré la vie sonore de leur enfant, 12 à 14 heures par jour, pendant ses 1 000 premiers jours — environ 1,2 million d'heures d'audio au total. L'analyse complète a été menée pour 8 enfants : en médiane 960 jours d'enregistrement, entre 1 900 et 6 600 heures d'audio et entre 6 et 27 millions de mots transcrits par enfant.
+
+Pour chacun, les chercheurs ont créé un modèle séparé. Au départ, il ne sait rien : ses réglages internes partent au hasard, sans aucune connaissance intégrée de la langue. On lui fait écouter les enregistrements de son enfant, jour après jour, dans l'ordre où l'enfant les a vécus. Chaque nuit, le modèle rejoue les sons récents : c'est la répétition nocturne, le fait de repasser en revue ce qui a été entendu dans la journée. Les auteurs rapprochent ce mécanisme de la consolidation pendant le sommeil — ils précisent eux-mêmes qu'il s'agit d'une hypothèse, pas d'un résultat établi.
+
+## Les sons vers un an, les mots au rythme de chaque enfant
+
+Le modèle retrouve d'abord les phonèmes, les plus petits sons qui changent le sens d'un mot — « ba » et « pa », par exemple, ne diffèrent que par un phonème. Vers 12 à 15 mois, il en distingue en moyenne 37,5 sur les 39 de l'anglais. Pour l'enfant suivi de plus près, le modèle en atteint 38 sur 39 à 24 mois. Le calendrier ressemble à celui d'un vrai enfant.
+
+Pour les mots, les chercheurs utilisent le CDI, la liste standard que remplissent les parents pour indiquer les mots que leur enfant connaît. Les enfants atteignent la moitié de cette liste entre 12 et 22 mois environ — un écart de dix mois entre le plus rapide et le plus lent. Chaque modèle suit à peu près le rythme de son propre enfant.
+
+## Deux résultats qui ne laissent pas de porte de sortie
+
+Premier résultat : en dessous d'un certain seuil, rien ne démarre. Avec seulement 10 % des données quotidiennes, soit environ 1 heure par jour, le modèle ne connaît aucun mot du CDI à 24 mois. Avec 30 %, environ 2,6 heures par jour, il en connaît 58 sur 649, soit environ 9 %. Avec 70 %, il atteint environ 90 % du vocabulaire obtenu avec toutes les données. Hors liste fermée, avec la moitié des données quotidiennes, il ne retrouve qu'environ 16 % des formes de mots obtenues avec la journée complète, environ 8 heures.
+
+Second résultat : sans répétition, rien ne reste. Entendu une seule fois, ou répété 1 à 5 fois, chaque jour d'écoute ne donne aucun mot à 24 mois. Il faut rejouer chaque journée environ 25 à 30 fois pour que les mots apparaissent ; au-delà, le gain devient faible.
+
+Et l'écart de rythme entre enfants ? Si l'on ne change que les différences d'écoute entre foyers, en gardant les réglages internes identiques, l'écart se réduit à 16–18 mois au lieu de 12–22. La quantité de paroles entendues ne suffit donc pas à expliquer pourquoi un enfant parle plus tôt qu'un autre. En ajustant trois réglages internes — le calendrier de vitesse d'apprentissage, la fenêtre pendant laquelle les erreurs s'accumulent, et la quantité de répétition nocturne — les chercheurs retrouvent l'écart complet, de 12 à 22 mois.
+
+Précision importante : ces expériences sont causales à l'intérieur du modèle, où l'on peut tout retirer et tout remettre. Pour les vrais enfants, ce sont des inférences tirées d'un modèle, pas un essai où l'on serait intervenu sur leur vie.
+
+<figure>
+<svg viewBox="0 0 560 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Graphique en barres : mots appris à 24 mois selon la quantité quotidienne de parole entendue">
+<text x="280" y="28" text-anchor="middle" font-size="18" font-weight="bold">Mots connus à 24 mois selon l'écoute quotidienne</text>
+<line x1="70" y1="260" x2="520" y2="260" stroke="#333" stroke-width="2"/>
+<rect x="110" y="260" width="80" height="0" fill="#888"/>
+<rect x="250" y="242" width="80" height="18" fill="#4a7ebb"/>
+<rect x="390" y="80" width="80" height="180" fill="#2e7d32"/>
+<text x="150" y="282" text-anchor="middle" font-size="14">~10 % (~1 h)</text>
+<text x="290" y="282" text-anchor="middle" font-size="14">~30 % (~2,6 h)</text>
+<text x="430" y="282" text-anchor="middle" font-size="14">70 %</text>
+<text x="150" y="248" text-anchor="middle" font-size="14">0 mot</text>
+<text x="290" y="230" text-anchor="middle" font-size="14">58 sur 649</text>
+<text x="430" y="68" text-anchor="middle" font-size="14">~90 % du vocabulaire complet</text>
+</svg>
+<figcaption>Rendu schématique des résultats rapportés dans l'article : mots du CDI connus à 24 mois selon la part des données quotidiennes fournies au modèle.</figcaption>
+</figure>
+
+## Ce que ce modèle ne dit pas — et ce qu'il change quand même
+
+Les limites sont réelles. La parole écoutée par les modèles a été resynthétisée par synthèse vocale : propre, mais sans la mélodie des vraies voix, sans leur identité ni leurs registres. L'architecture — un transformeur entraîné par rétropropagation — évoque certaines idées sur la cognition sans ressembler à un cerveau. Le modèle n'a ni yeux, ni échanges sociaux, ni autres sens : il n'apprend que des sons et des formes de mots, pas la grammaire ni le sens en situation. Enfin, il ne porte que sur 8 enfants, dans des foyers américains anglophones, et les enregistrements ne sont pas publics, pour protéger la vie privée des familles.
+
+Reste un apport concret. Pour la première fois, on peut poser la question « et si cet enfant avait entendu moins, ou répété moins ? » et obtenir une réponse mesurée, enfant par enfant. La réponse dessine un seuil — autour d'une heure par jour, dans ce modèle, rien ne prend — et elle déplace une partie de l'explication : la vitesse d'un enfant ne se lit pas seulement dans le volume de paroles autour de lui. Elle tient aussi à la manière dont son système, quel qu'il soit, traite ce qu'il entend.
+
+## Références
+
+Raviv, H., et al. (senior author: Hasson, U.; with Lew-Williams, C., & Hasenfratz, L.) "The first 1000 days: Modeling language learning from individual children's everyday speech." Science (5 November 2026). DOI: [10.1126/science.aeh9311](https://doi.org/10.1126/science.aeh9311)
