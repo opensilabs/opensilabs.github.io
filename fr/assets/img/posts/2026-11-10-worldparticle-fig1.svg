@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#52718c"/></marker></defs>
+<rect width="1200" height="650" fill="#f7fafc"/>
+<text x="40" y="52" font-family="Noto Sans, Noto Sans CJK SC, Noto Sans CJK JP, sans-serif" font-size="25" font-weight="700" fill="#17324a" text-anchor="start">Six matières, un Transformer de particules</text>
+<rect x="35" y="92" width="270" height="58" rx="14" fill="white" stroke="#c7d7e5" stroke-width="2"/>
+<g stroke="#2f80ed" stroke-width="3" fill="none" stroke-linecap="round"><path d="M55 105 q10 -10 20 0 t20 0"/><path d="M55 121 q10 -10 20 0 t20 0"/><path d="M55 137 q10 -10 20 0 t20 0"/><path d="M63 97 v48 M79 97 v48 M95 97 v48"/></g>
+<text x="118" y="129" font-family="Noto Sans, Noto Sans CJK SC, Noto Sans CJK JP, sans-serif" font-size="16" font-weight="600" fill="#17324a" text-anchor="start">Tissu</text>
+<rect x="35" y="168" width="270" height="58" rx="14" fill="white" stroke="#c7d7e5" stroke-width="2"/>
+<g stroke="#00a389" stroke-width="3" fill="none" stroke-linecap="round"><rect x="59" y="181" width="42" height="34" rx="9"/><path d="M69 198 l7 -8 7 14 7 -14 7 8"/></g>
+<text x="118" y="205" font-family="Noto Sans, Noto Sans CJK SC, Noto Sans CJK JP, sans-serif" font-size="16" font-weight="600" fill="#17324a" text-anchor="start">Solide élastique</text>
+<rect x="35" y="244" width="270" height="58" rx="14" fill="white" stroke="#c7d7e5" stroke-width="2"/>
+<path d="M80 251 C89 266 98 274 98 284 a18 18 0 1 1 -36 0 C62 274 71 266 80 251" fill="#56ccf2" opacity="0.9"/><path d="M72 284 a8 10 0 0 0 6 9" stroke="white" stroke-width="3" fill="none" stroke-linecap="round"/>
+<text x="118" y="281" font-family="Noto Sans, Noto Sans CJK SC, Noto Sans CJK JP, sans-serif" font-size="16" font-weight="600" fill="#17324a" text-anchor="start">Fluide newtonien</text>
+<rect x="35" y="320" width="270" height="58" rx="14" fill="white" stroke="#c7d7e5" stroke-width="2"/>
+<path d="M63 352 q-4 -18 13 -18 q5 -9 17 -4 q15 -2 13 12 q10 8 1 17 q2 13 -13 12 q-7 8 -18 2 q-15 1 -13 -13 q-8 -3 0 -8" fill="#9b51e0" opacity="0.88"/>
+<text x="118" y="357" font-family="Noto Sans, Noto Sans CJK SC, Noto Sans CJK JP, sans-serif" font-size="16" font-weight="600" fill="#17324a" text-anchor="start">Fluide non-newtonien</text>
+<rect x="35" y="396" width="270" height="58" rx="14" fill="white" stroke="#c7d7e5" stroke-width="2"/>
+<circle cx="80" cy="409" r="3.4" fill="#f2994a"/><circle cx="72" cy="421" r="3.4" fill="#f2994a"/><circle cx="80" cy="421" r="3.4" fill="#f2994a"/><circle cx="88" cy="421" r="3.4" fill="#f2994a"/><circle cx="64" cy="434" r="3.4" fill="#f2994a"/><circle cx="72" cy="434" r="3.4" fill="#f2994a"/><circle cx="80" cy="434" r="3.4" fill="#f2994a"/><circle cx="88" cy="434" r="3.4" fill="#f2994a"/><circle cx="96" cy="434" r="3.4" fill="#f2994a"/><circle cx="60" cy="446" r="3.4" fill="#f2994a"/><circle cx="68" cy="446" r="3.4" fill="#f2994a"/><circle cx="76" cy="446" r="3.4" fill="#f2994a"/><circle cx="84" cy="446" r="3.4" fill="#f2994a"/><circle cx="92" cy="446" r="3.4" fill="#f2994a"/><circle cx="100" cy="446" r="3.4" fill="#f2994a"/>
+<text x="118" y="433" font-family="Noto Sans, Noto Sans CJK SC, Noto Sans CJK JP, sans-serif" font-size="16" font-weight="600" fill="#17324a" text-anchor="start">Sable granulaire</text>
+<rect x="35" y="472" width="270" height="58" rx="14" fill="white" stroke="#c7d7e5" stroke-width="2"/>
+<g stroke="#eb5757" stroke-width="4" fill="none" stroke-linecap="round"><path d="M60 511 L72 491 L84 507 L94 487 L102 504"/></g><circle cx="60" cy="511" r="5" fill="white" stroke="#eb5757" stroke-width="3"/><circle cx="72" cy="491" r="5" fill="white" stroke="#eb5757" stroke-width="3"/><circle cx="84" cy="507" r="5" fill="white" stroke="#eb5757" stroke-width="3"/><circle cx="94" cy="487" r="5" fill="white" stroke="#eb5757" stroke-width="3"/><circle cx="102" cy="504" r="5" fill="white" stroke="#eb5757" stroke-width="3"/>
+<text x="118" y="509" font-family="Noto Sans, Noto Sans CJK SC, Noto Sans CJK JP, sans-serif" font-size="16" font-weight="600" fill="#17324a" text-anchor="start">Protéines / molécules</text>
+<path d="M310 315 H345" stroke="#52718c" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="355" y="95" width="490" height="84" rx="16" fill="#17324a"/>
+<text x="600" y="132" font-family="Noto Sans, Noto Sans CJK SC, Noto Sans CJK JP, sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">Prédicteur explicite</text>
+<text x="600" y="160" font-family="Noto Sans, Noto Sans CJK SC, Noto Sans CJK JP, sans-serif" font-size="14" font-weight="400" fill="#d7e8f5" text-anchor="middle">les forces extérieures connues d’abord</text>
+<path d="M600 184 V207" stroke="#52718c" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="355" y="215" width="490" height="335" rx="18" fill="white" stroke="#7fa8c9" stroke-width="2.5"/>
+<text x="600" y="252" font-family="Noto Sans, Noto Sans CJK SC, Noto Sans CJK JP, sans-serif" font-size="21" font-weight="700" fill="#17324a" text-anchor="middle">Correcteur appris</text>
+<rect x="385" y="275" width="430" height="64" rx="12" fill="#eaf3ff"/>
+<text x="600" y="302" font-family="Noto Sans, Noto Sans CJK SC, Noto Sans CJK JP, sans-serif" font-size="17" font-weight="700" fill="#17324a" text-anchor="middle">Tokeniseur de particules</text>
+<text x="600" y="325" font-family="Noto Sans, Noto Sans CJK SC, Noto Sans CJK JP, sans-serif" font-size="14" font-weight="400" fill="#47677f" text-anchor="middle">voisins · frontières · topologie</text>
+<path d="M600 341 V355" stroke="#52718c" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="385" y="359" width="430" height="64" rx="12" fill="#e9fbf5"/>
+<text x="600" y="386" font-family="Noto Sans, Noto Sans CJK SC, Noto Sans CJK JP, sans-serif" font-size="17" font-weight="700" fill="#17324a" text-anchor="middle">Encodeur à super-jetons</text>
+<text x="600" y="409" font-family="Noto Sans, Noto Sans CJK SC, Noto Sans CJK JP, sans-serif" font-size="14" font-weight="400" fill="#47677f" text-anchor="middle">deux fois moins de jetons par niveau</text>
+<path d="M600 425 V439" stroke="#52718c" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="385" y="443" width="430" height="64" rx="12" fill="#fff3e2"/>
+<text x="600" y="470" font-family="Noto Sans, Noto Sans CJK SC, Noto Sans CJK JP, sans-serif" font-size="17" font-weight="700" fill="#17324a" text-anchor="middle">Décodeur à super-jetons</text>
+<text x="600" y="493" font-family="Noto Sans, Noto Sans CJK SC, Noto Sans CJK JP, sans-serif" font-size="14" font-weight="400" fill="#47677f" text-anchor="middle">attention croisée vers chaque particule</text>
+<path d="M850 330 H882" stroke="#52718c" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="892" y="150" width="273" height="330" rx="18" fill="#17324a"/>
+<text x="1028" y="192" font-family="Noto Sans, Noto Sans CJK SC, Noto Sans CJK JP, sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">Mouvement simulé</text>
+<path d="M925 390 C965 300, 990 350, 1025 265 S1095 245, 1125 205" fill="none" stroke="#56ccf2" stroke-width="4" stroke-linecap="round"/>
+<path d="M930 420 C980 390, 1010 405, 1055 330 S1105 300, 1135 275" fill="none" stroke="#f2c94c" stroke-width="4" stroke-linecap="round"/>
+<circle cx="925" cy="390" r="7" fill="#56ccf2"/>
+<circle cx="985" cy="322" r="6" fill="#56ccf2"/>
+<circle cx="1055" cy="282" r="7" fill="#56ccf2"/>
+<circle cx="1125" cy="205" r="8" fill="#56ccf2"/>
+<circle cx="930" cy="420" r="7" fill="#f2c94c"/>
+<circle cx="1015" cy="397" r="6" fill="#f2c94c"/>
+<circle cx="1080" cy="315" r="7" fill="#f2c94c"/>
+<circle cx="1135" cy="275" r="8" fill="#f2c94c"/>
+<circle cx="955" cy="430" r="4.5" fill="#f2994a"/>
+<circle cx="973" cy="430" r="4.5" fill="#f2994a"/>
+<circle cx="991" cy="430" r="4.5" fill="#f2994a"/>
+<circle cx="1009" cy="430" r="4.5" fill="#f2994a"/>
+<circle cx="1027" cy="430" r="4.5" fill="#f2994a"/>
+<circle cx="1045" cy="430" r="4.5" fill="#f2994a"/>
+<circle cx="1063" cy="430" r="4.5" fill="#f2994a"/>
+<circle cx="1081" cy="430" r="4.5" fill="#f2994a"/>
+<circle cx="1099" cy="430" r="4.5" fill="#f2994a"/>
+<circle cx="963" cy="448" r="4.5" fill="#f2994a"/>
+<circle cx="981" cy="448" r="4.5" fill="#f2994a"/>
+<circle cx="999" cy="448" r="4.5" fill="#f2994a"/>
+<circle cx="1017" cy="448" r="4.5" fill="#f2994a"/>
+<circle cx="1035" cy="448" r="4.5" fill="#f2994a"/>
+<circle cx="1053" cy="448" r="4.5" fill="#f2994a"/>
+<circle cx="1071" cy="448" r="4.5" fill="#f2994a"/>
+<circle cx="1089" cy="448" r="4.5" fill="#f2994a"/>
+<text x="1028" y="525" font-family="Noto Sans, Noto Sans CJK SC, Noto Sans CJK JP, sans-serif" font-size="15" font-weight="600" fill="#17324a" text-anchor="middle">Positions et vitesses suivantes</text>
+</svg>
